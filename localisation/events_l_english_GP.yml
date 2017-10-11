@@ -1,5 +1,0 @@
-﻿l_english:
- growing_planets.max_size.name:0 "Planet is too large"
- growing_planets.max_size.desc:0 "Further increase of planet's mass is dangerous. Our scientists advise to stop the terraforming efforts at this point."
- growing_planets.remove_terraformer.ok:0 "Disband the terraforming module."
- REMOVE_SPACEPORT_MODULE:0 "Spaceport module removed"
