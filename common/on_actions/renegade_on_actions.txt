@@ -1,0 +1,35 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+
+# A ship has been built
+# Root = Ship
+# From = Planet
+on_ship_built = {
+	events = {
+	#rse_port_upgrade_event.1 #When the Spaceport is built.
+	#rse_port_upgrade_event.2 #When the upgrade to Spaceport 2 is completed.
+	#rse_port_upgrade_event.3 #When the upgrade to Spaceport 3 is completed.
+	#rse_port_upgrade_event.4 #When the upgrade to Spaceport 4 is completed.
+	#rse_port_upgrade_event.5 #When the upgrade to Spaceport 5 is completed.
+	#rse_port_upgrade_event.6 #When the upgrade to Spaceport 6 is completed.
+	#rse_port_upgrade_event.7 #When the upgrade to Spaceport 7 is completed.
+	#rse_port_upgrade_event.8 #When the upgrade to Spaceport 8 is completed.
+	#rse_port_upgrade_event.9 #When the upgrade to Spaceport 9 is completed.
+	#rse_port_upgrade_event.10 #When the upgrade to Spaceport 10 is completed.
+	#rse_port_upgrade_event.11 #When the upgrade to Spaceport 11 is completed.
+	#rse_port_upgrade_event.12 #When the upgrade to Spaceport 12 is completed.
+	#rse_port_upgrade_event.13 #When the upgrade to Spaceport 13 is completed.
+	#rse_port_upgrade_event.14 #When the upgrade to Spaceport 14 is completed.
+	#rse_port_upgrade_event.15 #When the upgrade to Spaceport 15 is completed.
+	#rse_port_upgrade_event.16 #When the upgrade to Spaceport 16 is completed.
+	#rse_port_upgrade_event.17 #When the upgrade to Spaceport 17 is completed.
+	#rse_port_upgrade_event.18 #When the upgrade to Spaceport 18 is completed.
+	#rse_port_upgrade_event.19 #When the upgrade to Spaceport 19 is completed.
+
+	}
+}

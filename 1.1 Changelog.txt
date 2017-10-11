@@ -1,0 +1,16 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Changelog ############################/
+#######################################/
+
+#Version 1.1
+#TheRenegade 09/25/17
+
+
+- Change graphic is planetview, it was squashed and not porper aspect ratio, made my own and am using it instead
+- Limited modification of vanilla files to planet_view.gui, to the best of my knowledge I HAVE to edit that one in order to have the upgrade slots appear correctly.
+- To many code edits to list. Cleaned it up, organized modules, localisation, templates and more into catergories for ease of future editing.
+

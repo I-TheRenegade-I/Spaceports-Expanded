@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	##ADDED
+	spriteType = {
+		name = "GFX_planetview_black_frame_revised"
+		textureFile = "gfx/interface/planetview/planetview_black_frame_revised.dds"
+	}
+}

@@ -1,0 +1,25 @@
+
+#Checks if the celestial object can be used as a donor of matter for a habitable planet
+#Expected scope: planet
+is_celestial_body_can_be_donor = {
+	OR = {
+		#Must be one of the following types:
+		is_planet_class = pc_barren
+		is_planet_class = pc_barren_cold
+		is_planet_class = pc_frozen
+		is_planet_class = pc_asteroid
+	}
+
+	#Can not be colonizable or terraformable
+	is_colonizable = no
+	NOT = { has_modifier = terraforming_candidate }
+		
+	#Must be left untouched until anomaly researched
+	has_anomaly = no
+	
+	#Must not have deposit for research station (it couldn't be mined then)
+	NOT = { has_deposit_for = shipclass_research_station }
+
+	#Can not be too small
+	planet_size > 3
+}

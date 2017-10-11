@@ -1,0 +1,150 @@
+namespace = growing_planets
+
+#Planet growth event
+planet_event = {
+	id = growing_planets.1
+	hide_window = yes
+	mean_time_to_happen = { days = 360 }
+
+	trigger = {
+		has_owner = yes
+		owner = { has_technology = tech_terrestrial_sculpting }
+		planet_size < 25
+		has_ground_combat = no
+		is_occupied_flag = no
+		num_pops > 0
+		has_spaceport = yes
+	}
+
+	immediate = {
+		#ensure there are minable donors exists within the empire borders
+		owner = { country_event = { id = growing_planets.3 } }
+		#Check if terraforming can occur
+		if = {
+			limit = {
+				#Check if the corresponding module is present on the planet
+				has_spaceport_module = terraformer
+				#Ensure there are any mining stations orbiting suitable celestial objects
+				owner = {
+					any_owned_ship = {
+						is_ship_class = shipclass_mining_station
+						orbit = { is_celestial_body_can_be_donor = yes }
+					}
+				}
+			}
+			#Pick a celestial object that can serve as donor
+			owner = {
+				random_owned_ship = {
+					limit = {
+						is_ship_class = shipclass_mining_station
+						orbit = { is_celestial_body_can_be_donor = yes }
+					}
+					orbit = {	#Enter the planet scope
+
+						#Check if the planet has ring
+						if = {
+							limit = { has_ring = yes }
+							#If it does - just remove it instead of shrinking the planet
+							set_ring = no
+	
+							#No ring? Then it will be shrinked
+							else = {
+								#Shrink the planet size
+								change_planet_size = -1
+								#Shrinking planet may give a boost to mineral production
+								if = {
+									limit = {
+										planet_size < 15
+										planet_size > 5
+									}
+									random_list = {
+										7 = {}
+										2 = { orbital_deposit_tile = { add_deposit = d_mineral_deposit } }
+									}
+								}
+							}
+						}
+					}
+
+					#Now go back to the main planet's scope...
+					root = {
+						#...to spawn a new tile on the main planet...
+						change_planet_size = 1
+						#...and if the maximum size reached, remove the module (but not for AI)
+						if = {
+							limit = {
+								planet_size = 25
+								owner = { is_ai = no }
+							}
+							planet_event = { id = growing_planets.2 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Planet reached the maximum size - show event window, disband the terraformer
+planet_event = {
+	id = growing_planets.2
+	#Configure the message window
+	title = "growing_planets.max_size.name"
+	desc = "growing_planets.max_size.desc"
+	picture = GFX_evt_gas_giant
+	location = ROOT
+	
+	is_triggered_only = yes
+	
+	option = {
+		remove_spaceport_module = terraformer
+		name = growing_planets.remove_terraformer.ok
+	}
+}
+
+#Mineral deposit distribution event ensuring that there is at least one rock with minerals
+country_event = {
+	id = growing_planets.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		#Ensure there are any donor planets exists within the empire borders...
+		any_planet_within_border = {
+			is_celestial_body_can_be_donor = yes
+			#...which are either minable or could be made minable
+			OR = {
+				has_deposit_for = shipclass_mining_station
+				orbital_deposit_tile = { has_deposit = no }
+			}
+		}
+
+		#Check if there are no possible donors that can be mined
+		NOT = {
+			any_planet_within_border = {
+				is_celestial_body_can_be_donor = yes
+				has_deposit_for = shipclass_mining_station
+			}
+		}
+	}
+	
+	immediate = {
+		#Pick a system inside the empire borders which contains donor candidate
+		random_system_within_border = {
+			limit = {
+				any_planet = {
+					is_celestial_body_can_be_donor = yes
+					orbital_deposit_tile = { has_deposit = no }
+				}
+			}
+			#Pick a celestial object that is 
+			random_system_planet = {
+				limit = {
+					is_celestial_body_can_be_donor = yes
+					orbital_deposit_tile = { has_deposit = no }
+				}
+				orbital_deposit_tile = { add_deposit = d_mineral_deposit }
+			}
+		}
+	}
+}

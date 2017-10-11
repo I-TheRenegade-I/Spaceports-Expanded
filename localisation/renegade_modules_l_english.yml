@@ -1,0 +1,484 @@
+﻿l_english:
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Spaceport Modules ####################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+
+ #Shield Modules
+    sm_rse_spaceport_shield_1:0 "Shield Array MK I"
+    sm_rse_spaceport_shield_1_desc:0 "§WSpaceport Modifier\n Shield Hitpoints: §!§G2500§!\n§W Shield Regeneration: §!§G15§!"
+    
+    sm_rse_spaceport_shield_2:0 "Shield MK I to MK II Upgrade Kit"
+    sm_rse_spaceport_shield_2_desc:0 "§RREQUIRES§! §YSHIELD ARRAY MK I§! §RTO FUNCTION§!\n §WSpaceport Modifier\n §!§WShield Hitpoints: §!§G+200%§!\n§W Shield Regeneration: §!§G45§!§ \n§W Shield Regen Multiplier: §!§G+100%§!"
+    
+    sm_rse_spaceport_shield_3:0 "Shield MK II to MK III Upgrade Kit"
+    sm_rse_spaceport_shield_3_desc:0 "§RREQUIRES§! §YSHIELD ARRAY MK II§! §RTO FUNCTION§!\n §WSpaceport Modifier\n §!§WShield Hitpoints: §!§G+500%§!\n§W Shield Regeneration: §!§G50§!§ \n§W Shield Regen Multiplier: §!§G+250%§!"
+    
+ #Hull Modules
+    sm_rse_module_hull_1:0 "Bulkhead Reinforcements" 
+    
+    sm_rse_module_hull_2:0 "Neutronium Skin Upgrade Kit" 
+    sm_rse_module_hull_2_desc:0 "§RREQUIRES§! §YBULKHEAD REINFORCEMENTS§! §RTO FUNCTION§!\n !§LThis Neutronium skin has introduced self-regeneration technology to your spaceport§! \n§W Monthly Hull Regeneration: §!§G2.5%§!§"   
+    
+    sm_rse_module_hull_3:0 "Living Metal Construction Kit"
+    sm_rse_module_hull_3_desc:0 "§RREQUIRES§! §YNEUTRONIUM SKIN UPGRADE§! §RTO FUNCTION§\n §LConstructing your Spaceport with a Living Metal skin has allowed increased self-regeneration§! \n§W Monthly Hull Regeneration: §!§G5%§"
+ 
+ #Armor Modules
+    sm_rse_module_armor_1:0 "Reinforced Blast Doors"
+    
+    sm_rse_module_armor_2:0 "Neutronium Alloy Upgrade Kit"
+    sm_rse_module_armor_2_desc:0 "§RREQUIRES§! §YREINFORCED BLAST DOORS§! §RTO FUNCTION§!"
+    
+    sm_rse_module_armor_3:0 "Ablative Armor Upgrade Kit"
+    sm_rse_module_armor_3_desc:0 "§RREQUIRES§! §YNEUTRONIUM ALLOY UPGRADE§! §RTO FUNCTION§!"
+ 
+
+ #Weapon Modules
+    sm_synchronized_defenses_2:0 "Semi-Autonomous Defenses"
+    sm_synchronized_defenses_2_desc:0 "§RREQUIRES§! §YSYNCHRONIZED DEFENSES§! §RTO FUNCTION§!"
+    
+    sm_synchronized_defenses_3:0 "Autonomous Defense Network"
+    sm_synchronized_defenses_3_desc:0 "§RREQUIRES§! §YSEMI-AUTONOMOUS DEFENSES§! §RTO FUNCTION§!"
+    
+    sm_synchronized_defenses_4:0 "AI Controlled Defensive Matrix"
+    sm_synchronized_defenses_4_desc:0 "§LTurn over complete control of all spaceport defensive operations to a central AI network.§!\n §RREQUIRES§! §YSEMI-AUTONOMOUS DEFENSES§! §RTO FUNCTION§!"
+    
+    sm_rse_module_hangar_1:0 "Station Fighter Squadron"
+    sm_rse_module_hangar_1_desc:0 "§LAn Elite Fighter Squadron mainly used for anti-fighter and anti-missle point defense §!\n §WSpaceport Modifier\n Fighter Squadrons: §!§G3§!§W\n Bomber Squadrons: §!§G1§!"
+    
+    sm_rse_module_hangar_2:0 "Station Bomber Squadron"
+    sm_rse_module_hangar_2_desc:0 "§LAn Elite Bomber Squadron mainly used for anti-ship defenses§!\n §WSpaceport Modifier\n Bomber Squadrons: §!§G3§!§W\n Fighter Squadrons: §!§G1§!"
+    
+    rse_HANGAR:0 "Station Hangar"
+    rse_HANGAR_BOMBER:0 "Station Bomber"
+    rse_HANGAR_FIGHTER:0 "Station Fighter"
+    
+    sm_rse_module_weapon_k1:0 "Gauss Cannon Array MK I"
+    sm_rse_module_weapon_k1_desc:0 "§YA collection of §RSmall§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G3§!§W\n Medium Weaponry Slots: §!§G2§!§W\n Large Weaponry Slots: §!§G1§!§W\n Mounted Weaponry: §!§GGauss Cannon§!"
+    
+    sm_rse_module_weapon_k2:0 "Gauss Cannon Array MK II"
+    sm_rse_module_weapon_k2_desc:0 "§YA collection of §RMedium§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G2§!§W\n Medium Weaponry Slots: §!§G4§!§W\n Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GGauss Cannon§!"
+    
+    sm_rse_module_weapon_k3:0 "Gauss Cannon Array MK III"
+    sm_rse_module_weapon_k3_desc:0 "§YA collection of §RLarge§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G1§!§W\n Medium Weaponry Slots: §!§G1§!§W\n Large Weaponry Slots: §!§G5§!§W\n Mounted Weaponry: §!§GGauss Cannon§!"
+ 
+    sm_rse_module_weapon_k4:0 "Gauss Cannon Array MK IV"
+    sm_rse_module_weapon_k4_desc:0 "§YA collection of §RExtra Large§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Extra Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GGiga Cannon§!"
+ 
+    sm_rse_module_weapon_l1:0 "Laser Array MK I"
+    sm_rse_module_weapon_l1_desc:0 "§YA collection of §RSmall§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G3§!§W\n Medium Weaponry Slots: §!§G4§!§W\n Large Weaponry Slots: §!§G1§!§W\n Mounted Weaponry: §!§GGamma Laser§!"
+    
+    sm_rse_module_weapon_l2:0 "Laser Array MK II"
+    sm_rse_module_weapon_l2_desc:0 "§YA collection of §RMedium§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G2§!§W\n Medium Weaponry Slots: §!§G3§!§W\n Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GGamma Laser§!"
+    
+    sm_rse_module_weapon_l3:0 "Laser Array MK III"
+    sm_rse_module_weapon_l3_desc:0 "§YA collection of §RLarge§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G1§!§W\n Medium Weaponry Slots: §!§G1§!§W\n Large Weaponry Slots: §!§G5§!§W\n Mounted Weaponry: §!§GGamma Laser§!"    
+
+    sm_rse_module_weapon_l4:0 "Laser Array MK IV"
+    sm_rse_module_weapon_l4_desc:0 "§YA collection of §RExtra Large§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Extra Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GTachyon Lance§!"    
+    
+    sm_rse_module_weapon_m1:0 "Missile Array MK I"
+    sm_rse_module_weapon_m1_desc:0 "§YA collection of §RSmall§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G3§!§W\n Medium Weaponry Slots: §!§G2§!§W\n Large Weaponry Slots: §!§G1§!§W\n Mounted Weaponry: §!§GMarauder Missiles§!"
+    
+    sm_rse_module_weapon_m2:0 "Missile Array MK II"
+    sm_rse_module_weapon_m2_desc:0 "§YA collection of §RMedium§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G2§!§W\n Medium Weaponry Slots: §!§G4§!§W\n Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GMarauder Missiles§!"
+ 
+    sm_rse_module_weapon_m3:0 "Missile Array MK III"
+    sm_rse_module_weapon_m3_desc:0 "§YA collection of §RLarge§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Small Weaponry Slots: §!§G1§!§W\n Medium Weaponry Slots: §!§G1§!§W\n Large Weaponry Slots: §!§G5§!§W\n Mounted Weaponry: §!§GMarauder Missiles§!"
+ 
+    sm_rse_module_weapon_m4:0 "Missile Array MK IV"
+    sm_rse_module_weapon_m4_desc:0 "§YA collection of §RExtra Large§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Extra Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GDevastator Torpedoes§!"
+ 
+    sm_rse_module_weapon_xl_1:0 "Focused Arc Emitter Battery"
+    sm_rse_module_weapon_xl_1_desc:0 "§YA collection of §RExtra Large§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Extra Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GFocused Arc Emitter§!"
+ 
+    sm_rse_module_weapon_xl_2:0 "Neutron Torpedo Battery"
+    sm_rse_module_weapon_xl_2_desc:0 "§YA collection of §RExtra Large§! weapons for your Spaceport§!\n §WSpaceport Modifier\n Extra Large Weaponry Slots: §!§G2§!§W\n Mounted Weaponry: §!§GNeutron Torpedoes§!"
+ 
+ 
+ #Energy Modules
+    sm_solar_panel_network2:0 "Solar Panel MK II"
+    sm_solar_panel_network3:0 "Solar Panel MK III"
+    sm_solar_panel_network4:0 "Solar Panel MK IV"
+    sm_solar_panel_network5:0 "Planetary Energy Grid"
+    solar_panel_network7:0 "Spaceport Anti-Matter Power Plant"
+    solar_panel_network8:0 "Spaceport Zero-Point Power Plant"
+    
+ #Mineral Modules
+    sm_material_factory_1:0 "Nano Factory"
+    sm_material_factory_2:0 "Asteroid Processing Plant"
+    sm_material_factory_3:0 "Moon Strip Mining"
+    sm_material_factory_4:0 "Energy to Matter Plant"
+    sm_material_factory_5:0 "Mining Guilds"
+	
+ #Food Modules
+    sm_hydroponic_farms_2:0 "Stacked Vegetable Farm"
+    sm_hydroponic_farms_3:0 "Soylent Green Factory"
+    sm_hydroponic_farms_4:0 "Food Relicators"
+ 
+ #Ship Assembly Modules
+    sm_ship_assembly_yards_1:0 "Automated Shipyard MK I"
+    sm_ship_assembly_yards_2:0 "Automated Shipyard MK II"
+    sm_ship_assembly_yards_3:0 "Automated Shipyard MK III"
+    
+    sm_ship_assembly_yards_5:0 "Sub-Capital Class Shipyard"
+    sm_ship_assembly_yards_5_desc:0 "§LAllows more efficent construction of Sub-Capital Class starships§!\n §RNSC DEPENDANT§!"
+    
+    sm_ship_assembly_yards_6:0 "Capital Class Shipyard"
+    sm_ship_assembly_yards_6_desc:0 "§LAllows more efficent construction of Capital Class starships§!\n §RNSC DEPENDANT§!"
+    
+    sm_ship_assembly_yards_7:0 "Super-Capital Class Shipyard"
+    sm_ship_assembly_yards_7_desc:0 "§LAllows more efficent construction of Super-Capital Class starships§!\n §RNSC DEPENDANT§!"
+    
+    sm_engineering_bay_2:0 "Robotic Engineering Bay"
+    sm_psionic_engineering_academy:0 "Psionic Engineering Academy"
+ 
+ #Media and Propaganda Modules
+    sm_ministry_of_war_1:0 "Mininstry of War Radio Station"
+    sm_ministry_of_war_1_desc:0 "Enables the ability to transmit pro-government and pro-war radio broadcasts."
+    
+    sm_ministry_of_war_2:0 "Mininstry of War Television Station"
+    sm_ministry_of_war_2_desc:0 "Enables the ability to transmit pro-government and pro-war television broadcasts."
+    
+    sm_state_media_news_1:0 "State Media Radio Station"
+    sm_state_media_news_1_desc:0 "Enables the ability to tranmits Government-sanctioned radio programs across an entire world."
+    
+    sm_state_media_news_2:0 "State Media Television Station"
+    sm_state_media_news_2_desc:0 "Enables the ability to tranmits Government-sanctioned television programs across an entire world."
+    
+    sm_private_news_radio_1:0 "Private Radio Station"
+    sm_private_news_radio_1_desc:0 "Allows the creation of a private radio station on your spaceports."
+    
+    sm_private_news_radio_2:0 "Syndicated Radio Station"
+    sm_private_news_radio_2_desc:0 "Allows the creation of a Synidacted radio station on your spaceports, now you'll never miss your show!"
+    
+    sm_psionic_mood_array:0 "Orbital Telepathic Mood Array"
+    sm_psionic_mood_array_desc:0 "Enables the ability to make people happy, FROM SPACE!!!"
+    
+    sm_ministry_of_propaganda_1:0 "Propganda Pamplets"
+    sm_ministry_of_propaganda_1_desc:0 "Provides the means of leaving pro-government literature in public areas."
+    
+    sm_ministry_of_propaganda_2:0 "State Police"
+    sm_ministry_of_propaganda_2_desc:0 "Allows the recruitment of a State Police, if people won't be happy, we'll force them to be happy."
+    
+    
+ #Observation and Listening Posts
+    sm_listening_post_1:0 "Listening Post MK I"
+    sm_listening_post_1_desc:0 "§LRecent advances in technology has allowed you to see further into the galaxy §!"
+    
+    sm_listening_post_2:0 "Listening Post MK II"
+    sm_listening_post_2_desc:0 "§LTechnological breakthroughs have allowed the creation of the epitome of early warning systems §!"
+    
+    sm_observatory_2:0 "Astrometrics Lab"
+    sm_observatory_3:0 "Relativity Array"
+    sm_hive_mind_network:0 "Orbital Hive Vibration Array"
+ 
+ #Army Modules
+    sm_spaceport_military_1:0 "Crew Training Facilities"
+    sm_spaceport_military_1_desc:0 "§LAdvanced starship crew training faciltiies enable enhanced performance of ships weapons systems produced at this spaceport §!"
+    
+    sm_spaceport_military_2:0 "Military Officer Academy"
+    sm_spaceport_military_2_desc:0 "§LEnhanced Officer training programs have allowed larger overall fleet sizes and more spatially aware officers §!"
+    
+    sm_spaceport_military_3:0 "Station Security Forces"
+    sm_spaceport_military_3_desc:0 "§LHousing an Elite Defense Force strictly for protecting this Spaceport, all weapons systems are on stand-by and operate at increased efficiency §!"
+    
+    sm_spaceport_military_4:0 "Orbital Recruitment Offices"
+    sm_spaceport_military_4_desc:0 "§LOrbital recruiting Officers stationed at the Spaceport's main promenade offer increased army recuritment for it's mother planet. §!"
+ 
+ #Science Modules
+    sm_spaceport_science_lab_1:0 "Engineering Corps"
+    sm_spaceport_science_lab_2:0 "Civic Engagement Council"
+    sm_spaceport_science_lab_3:0 "Large Hadron Collider"
+    sm_spaceport_science_lab_4:0 "Robot Manufacturing Lab"
+    sm_spaceport_science_lab_5:0 "Gene-Splicing Lab"
+ 
+ #Strategic Resource Modules
+    sm_strategic_resource_1:0 "Dark Matter Generation"
+    sm_strategic_resource_1_desc:0 "§LBreakthroughs in Physics has allowed the creation of microscopic black holes, enabling the extraction of Dark Matter\n §!§WStrategic Resource Bonus§! \n§WPhyics Research §!§G+20%§!"
+    
+    sm_strategic_resource_2:0 "Garanthium Ore Forge"
+    sm_strategic_resource_2_desc:0 "§LBy capturing passing asteroids, you have been able to mine Garanthium Ore in near infinite quantities\n §!§WStrategic Resource Bonus§! \n§WShip hull points §!§G+10%§!"
+    
+    sm_strategic_resource_3:0 "Living Metal Fabrication"
+    sm_strategic_resource_3_desc:0 "§LUtilizing technological advancements, your sciencetists have been able to artifically create Living Metal\n §!§WStrategic Resource Bonus§! \n§WMegastructure build speed §!§G+30%§! \n§WMonthly hull regeneration §!§G+2%§!"
+    
+    sm_strategic_resource_4:0 "Lythuric Gas Synthesizer"
+    sm_strategic_resource_4_desc:0 "§LWhile compressing Oxygen for deep space missions, your sciencetists inadvertantly found a way to synthesize Lythuric Gas\n §!§WStrategic Resource Bonus§! \n§WShield hit points §!§G+20%§!"
+    
+    sm_strategic_resource_5:0 "Neutronium Ore Extraction"
+    sm_strategic_resource_5_desc:0 "§LRsearch stations on distant stars reported that all stars have exotic materials near their core. Breakthroughs in deep core mining have enabled your empire to have abundant quantities of Neutronium Ore\n §!§WStrategic Resource Bonus§! \n§WArmor §!§G+20%§!"
+    
+    sm_strategic_resource_6:0 "Orillium Foundry"
+    sm_strategic_resource_6_desc:0 "§LBy combining rare and exotic materials from across the galaxy your engineers have created Atrifcal Orillium\n §!§WStrategic Resource Bonus§! \n§WExplosive weapon damage §!§G+20%§!"
+   
+    sm_strategic_resource_7:0 "Teldar Crystal Development"
+    sm_strategic_resource_7_desc:0 "§LA by-product of various power generation techniques across your empire has resulted in a new dense material that can only be rivaled by and compared to pure Teldar Crystals\n §!§WStrategic Resource Bonus§! \n§WKinetic weapon damage §!§G+20%§!"
+    
+    sm_strategic_resource_8:0 "Yurantic Crystal Synthesizing Lab"
+    sm_strategic_resource_8_desc:0 "§LOriginally found growing near the highly radioactive core of your Spaceports power plant, these Synthetic Yurantic Crystal have now moved into being generated in strictly contrrolled labratory enviroments\n §!§WStrategic Resource Bonus§! \n§WEnergy weapon damage §!§G+20%§!"
+    
+    sm_strategic_resource_9:0 "Atrifical Zro Distillery"
+    sm_strategic_resource_9_desc:0 "§LOriginally a banned substance in your empire, we have now discovered that Zro has highly enhanced the abilities of certain people in your empire, we have thus moved into full scale production and controlled dosages among your elite officers\n §!§WStrategic Resource Bonus§! \n§WFTL Speed §!§G+50%§!\n§WSensor Range §!§G+100%§!"
+    
+    sm_strategic_resource_10:0 "Engos Vaporization Lab"
+    sm_strategic_resource_10_desc:0 "§LFound deep in the cores of gas giants, we have been able to vaporise seemingly normal gases and extract vast quantities of Engos gas\n §!§WStrategic Resource Bonus§! \n§WHabitability §!§G+5%§!"
+    
+    sm_strategic_resource_11:0 "Pitharan Dust Fertilizer Plant"
+    sm_strategic_resource_11_desc:0 "§LRecent discoveries show that many stars eject Pitharan Dust, capturing and utilizing it has always been a problem, until now\n §!§WStrategic Resource Bonus§! \n§WFood output §!§G+10%§!"
+ 
+ #Misc Modules
+    sm_terraformer:0 "Terraforming Station"
+    sm_terraformer_desc:0 "This station dumps massive amounts of sediment obtained from our space mining stations onto the planet artificially raising it's mass and colonizable area."
+    
+    
+    
+####################################/
+# Technology ######################/
+##################################/
+
+ #Shield Modules
+    tech_rse_shields_1:0 "Spaceport Shield Array MK I"
+    tech_rse_shields_1_desc:0 "You have shields on your ships, now we have made them powerful enough for your Spaceports!"
+    
+    tech_rse_shields_2:0 "Spaceport Shield MK I to MK II Upgrade Kit"
+    tech_rse_shields_2_desc:0 "Unlocks the ability to install shield rechargers and boosters on your spaceports, further boosting regen and shield strength."
+    
+    tech_rse_shields_3:0 "Spaceport Shield MK II to MK III Upgrade Kit"
+    tech_rse_shields_3_desc:0 "This unlocks increased tech, further increasing the regen and durability of your spaceport shield arrays. Spaceports with these installed are virtually impregnable bastions in space."
+ 
+ 
+ #Hull Modules
+    tech_reinforced_hull_1:0 "Bulkhead Reinforcments"
+    tech_reinforced_hull_1_desc:0 "Heavy duty reinforced bulkheads for your spaceports drastically improve their survivability in combat."
+ 
+    tech_reinforced_hull_2:0 "Neutronium Skin Structural Reinforcment"
+    tech_reinforced_hull_2_desc:0 "Using Neutronium Ore as a foundation for hull construction introduces self-regernation technology to your spaceport."
+
+    tech_reinforced_hull_3:0 "Living Metal Endoskeleton"
+    tech_reinforced_hull_3_desc:0 "By having a liquid living metal skin, the self-regeneration of your spaceports is dramitcally increased."
+
+
+ #Armor Modules
+    tech_rse_module_armor_1:0 "Reinforced Spaceport Blast Doors"
+    tech_rse_module_armor_1_desc:0 "Introducing automatic bulkheads, blast doors and window coverings, your spaceports offer increased damage mitigation."
+    
+    tech_rse_module_armor_2:0 "Titanium Alloy Armor Upgrade Kit"
+    tech_rse_module_armor_2_desc:0 "Offering a thicker, denser and more resistant armor kit your starbases cant take quite the beating."
+    
+    tech_rse_module_armor_3:0 "Ablative Armor Upgrade Kit"
+    tech_rse_module_armor_3_desc:0 "Ablative Armor is the epitmoe of spaceport armor. Virtually impregnable, any spaceport fit with this kit will be a force to be reckoned with."
+
+
+ #Weapon Modules
+    tech_synchronized_defences_2:0 "Semi-Autonomous Defense Matrix"
+    tech_synchronized_defences_2_desc:0 "Turning over a portion of targetting to computers, this unlocks moudles for spaceport defense."
+
+    tech_synchronized_defences_3:0 "Autonomous Defense Matrix"
+    tech_synchronized_defences_3_desc:0 "Target acquisition and weapon seclection is handled by computers, but someone still needs to push a button."
+
+    tech_synchronized_defences_4:0 "AI Controlled Defensive Matrix - SkyNet development suite"
+    tech_synchronized_defences_4_desc:0 "Who needs to push buttons when a AI computer network can handle the killing of all threats? Turn over complete control of all spaceport defensive operations to a faster and better mind!"
+
+    tech_rse_spaceport_lasers_1:0 "Spaceport Laser Array MK II - X-Ray Crystal Transportation"
+    tech_rse_spaceport_lasers_1_desc:0 "Making guns bigger and more power efficent, this Gamma Laser Array tech unlocks more advanced medium weaponry for your spaceports."
+    
+    tech_rse_spaceport_lasers_2:0 "Spaceport Laser Array MK III - Gamma Crystal Focusing Array"
+    tech_rse_spaceport_lasers_2_desc:0 "Further efficiencies has enabled a battery of large weapons to compliment the offensive power of your Spaceports."
+    
+    tech_rse_spaceport_lasers_3:0 "Spaceport Laser Array MK IV - Energy Lance Focusing Crystals"
+    tech_rse_spaceport_lasers_3_desc:0 "The end all and be all of laser offensive weaponry, Spaceports fit with this new technology will be nothing short of a ship-killer."
+    
+    tech_rse_spaceport_mass_drivers_1:0 "Spaceport Gauss Cannon Array MK II - Anti-Grav Propulsion"
+    tech_rse_spaceport_mass_drivers_1_desc:0 "Offering a larger punch to standard kinetic starport weapons, this Gauss Cannon Array tech unlocks more advanced medium weaponry for your spaceports."
+    
+    tech_rse_spaceport_mass_drivers_2:0 "Spaceport Gauss Cannon Array MK III - Artillery Range"
+    tech_rse_spaceport_mass_drivers_2_desc:0 "Further efficiencies has enabled a battery of large weapons to compliment the offensive power of your Spaceports."
+    
+    tech_rse_spaceport_mass_drivers_3:0 "Spaceport Mass Accelerator Array MK IV - Mass Acceleration"
+    tech_rse_spaceport_mass_drivers_3_desc:0 "The end all and be all of kinetic offensive weaponry, Spaceports fit with this new technology will be nothing short of a ship-killer."
+    
+    tech_rse_spaceport_missiles_1:0 "Missile Array MK II - Nuclear missile storage"
+    tech_rse_spaceport_missiles_1_desc:0 "Further advances in nuclear warhead storage has allowed us to safety store an increased arsenal of medium warheads on spaceports."
+    
+    tech_rse_spaceport_missiles_2:0 "Missile Array MK III - Anti-matter Containment"
+    tech_rse_spaceport_missiles_2_desc:0 "Anit-matter containment fields has finally enabled us to store large anti-matter missiles next to our civilian populations."
+    
+    tech_rse_spaceport_missiles_3:0 "Missile Array MK IV - Devestation pure and simple"
+    tech_rse_spaceport_missiles_3_desc:0 "Throwing all cares to the wind, we have started transporting Devastator Torpedeos to our spaceports. Safety be damned!"
+    
+    tech_rse_spaceport_arc_emitter:0 "Focused Arc Emitter Battery - Spaceport sized!"
+    tech_rse_spaceport_arc_emitter_desc:0 "Combining the best advancements in Plasma and Laser technologies we have learned how to outfit our spaceports with the highest quality offensive arc emitters in the galaxy."
+    
+    tech_rse_spaceport_energy_torpedoes:0 "Neutron Torpedo Battery - What's better?"
+    tech_rse_spaceport_energy_torpedoes_desc:0 "Energy Torpedeos on a spaceport... what else could you really ask for?"
+   
+    tech_rse_hangar_1:0 "Station Fighter Squadron - Pilot training schools"
+    tech_rse_hangar_1_desc:0 "TopGun schooling for the best of the best. Come on, Mav, do some of that pilot shit!"
+    
+    tech_rse_hangar_2:0 "Station Bomber Squadron - Bomber pratice ranges"
+    tech_rse_hangar_2_desc:0 "That's no moon. It's a space station."
+    
+    
+ #Energy Modules
+    tech_solar_panel_network_2:0 "Solar Panel MK II"
+    tech_solar_panel_network_2_desc:0 "Large Scale Solar Panels for Starbases."
+ 
+    tech_solar_panel_network_3:0 "Solar Panel MK III"
+    tech_solar_panel_network_3_desc:0 "Larger and more efficent Solar Panels for Starbases."
+ 
+    tech_solar_panel_network_4:0 "Solar Panel MK IV - Tesla Edition"
+    tech_solar_panel_network_4_desc:0 "X-Large Scale Solar Panels for Starbases - It is remarkable how many things you can explode. I’m lucky I have all my fingers."
+    
+    tech_solar_panel_network_5:0 "Planetary Energy Grid"
+    tech_solar_panel_network_5_desc:0 "Harnessing solar power and then using lasers to beam it to the surface, you can increase the efficiency of all your planetary power plants."
+    
+    tech_solar_panel_network_6:0 "Spaceport Anti-Matter Power Plant"
+    tech_solar_panel_network_6_desc:0 "Bigger and better staion power plants for those energy hungry starbase modules."
+    
+    tech_solar_panel_network_7:0 "Spaceport Zero-Point Power Plant"
+    tech_solar_panel_network_7_desc:0 "We need moar powah for those hungry hungry spaceports!"
+
+    
+ #Mineral Modules
+    tech_material_factory_1:0 "Nano Products"
+    tech_material_factory_1_desc:0 "An energy intensive machine that makes small amounts of minerals."
+ 
+    tech_material_factory_2:0 "Asteroid Capturing"
+    tech_material_factory_2_desc:0 "Enables the ability to capture and mine passing asteroids using an energy tractor beam."
+ 
+    tech_material_factory_3:0 "Moon Strip Mining"
+    tech_material_factory_3_desc:0 "BOOM! Make your presence known, we now strip mine moon!"
+    
+    tech_material_factory_4:0 "Energy to Matter"
+    tech_material_factory_4_desc:0 "A factory that converts energy into minerals."
+    
+    tech_material_factory_5:0 "Mining Guilds"
+    tech_material_factory_5_desc:0 "A meeting place for miners to organize themselves and share the latest technology, boosting this planets mineral output significantly."
+
+    
+ #Food Modules
+    tech_orbital_hydroponics_2:0 "Zero Gravity Hydroponics"
+    tech_orbital_hydroponics_2_desc:0 "New technologies allow for additional ways to produce food in orbit."
+ 
+    tech_orbital_hydroponics_3:0 "Soylent Green Manufacturing"
+    tech_orbital_hydroponics_3_desc:0 "Contains 100% High-energy plankton from the planets ocean..........or maybe...just a little bit....of.......people..."
+ 
+    tech_orbital_hydroponics_4:0 "Food Replication Technology"
+    tech_orbital_hydroponics_4_desc:0 "Food from energy?? Whaaaat?!?! At least it's not GMO!..........or people."
+
+    
+ #Ship Assembly Modules
+    tech_doctrine_manufacturing_standards_1:0 "Spaceport Automated Shipyard"
+    tech_doctrine_manufacturing_standards_1_desc:0 "Robotic workers and automatic manufacturing allow for a increased build time and a higher quality end-product."
+    
+    tech_doctrine_manufacturing_standards_2:0 "Automated Shipyard MK II"
+    tech_doctrine_manufacturing_standards_2_desc:0 "Laser guided cutting, prefab components and remote assembly has again increased overall speed and quality of starships"
+    
+    tech_doctrine_manufacturing_standards_3:0 "Automated Shipyard MK III"
+    tech_doctrine_manufacturing_standards_3_desc:0 "Universal components, database uplinks, AI controlled assembly, all these have lead to a built standard that is second to none in the galaxy."
+
+ 
+ #Media and Propaganda Modules
+    tech_media_1:0 "Mass Radio Media"
+    tech_media_1_desc:0 "Grants the ability to broadcast Government-Sanctioned Radio Programs on a global scale"
+ 
+    tech_media_2:0 "Mass Televised Media"
+    tech_media_2_desc:0 "Grants the ability to broadcast Government-Sanctioned Televison Programs on a global scale"
+    
+    tech_media_psionic:0 "Telepathic Mood Array"
+    tech_media_psionic_desc:0 "The ability to transmit thoughts and Government-Sanctioned messages telepathically"
+    
+    
+    
+ #Observation and Listening Posts
+    tech_orbital_sensor_array_2:0 "Orbital Astrometrics Lab"
+    tech_orbital_sensor_array_2_desc:0 "Provides an increase to sensor range and a boost to planetary science output."
+    
+    tech_orbital_sensor_array_3:0 "Orbital Relativity Array"
+    tech_orbital_sensor_array_3_desc:0 "Further increases science outputs and planetary sensor range. The past, like the future, is indefinite and exists only as a spectrum of possibilities."
+    
+    tech_listening_post_1:0 "Laser Communication Interception"
+    tech_listening_post_1_desc:0 "Unlocks the ability to use laser technology to intercept incomming fleets FTL signatures and communications."
+ 
+    tech_listening_post_2:0 "Advanced Laser Com Sensor Physics"
+    tech_listening_post_2_desc:0 "Make those lasers go faster and further than before!.....wait....."
+ 
+ 
+ #Army Modules
+    tech_rse_army_1:0 "Orbital Recruitment Offices"
+    tech_rse_army_1_desc:0 "Recruitment offices on Spaceports provide a boost to civilian army recruitment and a convenient place for people to take the black."
+    
+    tech_rse_army_2:0 "Expanded Crew Training Facilities"
+    tech_rse_army_2_desc:0 "Enables training of elite cstarship crewmembers. Crew trained at properly equipped spaceports will be morw effective and deadly at their assigned tasks."
+    
+    tech_rse_army_3:0 "Station Security Force Recruitment offices"
+    tech_rse_army_3_desc:0 "Allows the recruitment of an elite military squad to guard your spaceport and operate it's weapons systems."
+    
+    tech_rse_army_4:0 "Military Officer Academy"
+    tech_rse_army_4_desc:0 "Duty - Honor - Country"
+
+ 
+ #Science Modules
+    tech_rse_pop_growth:0 "Gene-Splicing Lab"
+    tech_rse_pop_growth_desc:0 "Enhanced Gene-splicing technology unlocks an accelerated growth lab for your planet's population."
+    
+    tech_rse_pop_growth_2:0 "Robot Manufacturing Lab"
+    tech_rse_pop_growth_2_desc:0 "Enhanced construction techniques and zero-gravity assembly arrays allow for faster and more efficent contruction of robots."
+    
+    tech_spaceport_researchers:0 "Dedicated Spaceport Tech Researchers"
+    tech_spaceport_researchers_desc:0 "A dedicated team of researchers specifically for reseaching Spaceport Tech. Side effect, bonus research speeds and alternatives!"
+  
+ #Strategic Resource Modules
+    tech_rse_strategic_resource_1:0 "Dark Matter Generation"
+    tech_rse_strategic_resource_1_desc:0 "Unlocks the ability to create artifical Dark Matter"
+    
+    tech_rse_strategic_resource_2:0 "Garanthium Ore Forge"
+    tech_rse_strategic_resource_2_desc:0 "Unlocks the ability to create artifical Garanthium Ore"
+    
+    tech_rse_strategic_resource_3:0 "Living Metal Fabrication"
+    tech_rse_strategic_resource_3_desc:0 "Unlocks the ability to create artifical Living Metal"
+    
+    tech_rse_strategic_resource_4:0 "Lythuric Gas Synthesizer"
+    tech_rse_strategic_resource_4_desc:0 "Unlocks the ability to create artifical Lythuric Gas"
+    
+    tech_rse_strategic_resource_5:0 "Neutronium Ore Foundry"
+    tech_rse_strategic_resource_5_desc:0 "Unlocks the ability to create artifical Neutronium Ore"
+    
+    tech_rse_strategic_resource_6:0 "Orillium Ore Extraction"
+    tech_rse_strategic_resource_6_desc:0 "Unlocks the ability to create artifical Orillium Ore"
+    
+    tech_rse_strategic_resource_7:0 "Teldar Crystal Development"
+    tech_rse_strategic_resource_7_desc:0 "Unlocks the ability to create artifical Teldar Crystal"
+    
+    tech_rse_strategic_resource_8:0 "Yurantic Crystal Synthesizing Lab"
+    tech_rse_strategic_resource_8_desc:0 "Unlocks the ability to create artifical Yurantic Crystal"
+    
+    tech_rse_strategic_resource_9:0 "Artifical Zro Distillery"
+    tech_rse_strategic_resource_9_desc:0 "Unlocks the ability to create artifical Zro"
+    
+    tech_rse_strategic_resource_10:0 "Engos Vaporization Lab"
+    tech_rse_strategic_resource_10_desc:0 "Unlocks the ability to create artifical Engos Vapor"
+    
+    tech_rse_strategic_resource_11:0 "Pitharan Dust Fertilizer Plant"
+    tech_rse_strategic_resource_11_desc:0 "Unlocks the ability to create artifical Pitharan Dust"
+    
+ 
+ #Repeatable Techs
+ 
+    tech_repeatable_orbital_station_health:0 "Increased Manufacturing Standards"
+    tech_repeatable_orbital_station_health_desc:0 "Increaed regulations and standards has allowed you to retrofit your spaceports and increase their overall health."
+ 
+    tech_repeatable_orbital_station_damage:0 "Increased Weaponry Payloads"
+    tech_repeatable_orbital_station_damage_desc:0 "Micronization technology has allowed denser, deadlier weaponry payloads allowing your spaceports weapon systems to pack a bigger punch."
+ 
+ 
+ 
+ 
+ 

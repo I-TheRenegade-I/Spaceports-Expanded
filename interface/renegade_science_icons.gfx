@@ -1,0 +1,78 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_spaceport_science_lab_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_science_lab_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_science_lab_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_science_lab_2.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_science_lab_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_science_lab_3.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_science_lab_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_science_lab_4.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_engineering_lab_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_engineering_lab_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_engineering_lab_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_engineering_lab_2.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_engineering_lab_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_engineering_lab_3.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_physics_lab_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_physics_lab_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_physics_lab_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_physics_lab_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_physics_lab_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_physics_lab_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_society_lab_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_society_lab_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_society_lab_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_society_lab_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_society_lab_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_society_lab_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_robot_lab_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_robot_lab_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_robot_lab_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_robot_lab_2.dds"
+	}
+}
