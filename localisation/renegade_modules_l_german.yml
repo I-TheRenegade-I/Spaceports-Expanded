@@ -44,7 +44,7 @@ l_german:
     sm_synchronized_defenses_2:0 "Semiautonome Verteidigung"
     sm_synchronized_defenses_2_desc:0 "§RSetzt voraus:§! §YSYNCHRONISIERTE VERTEIDIGUNG§!\n §LFortschrittliche Assistenzsysteme erhohen die Kampfeffizienz der Defensivbesatzung§!"
     
-    sm_synchronized_defenses_3:0 "Vollautonome Verteidigung"
+    sm_synchronized_defenses_3:0 "Autonome Verteidigung"
     sm_synchronized_defenses_3_desc:0 "§RSetzt voraus:§! §YSEMIAUTONOME VERTEIDIGUNG§!\n §LVollständig Computergesteuerte Waffen- und Zielsysteme erhöhen die Effizienz der Defensivsysteme noch weiter§!"
     
     sm_synchronized_defenses_4:0 "KI-Defensivmatrix"
