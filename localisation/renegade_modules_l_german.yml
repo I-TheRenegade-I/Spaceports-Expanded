@@ -48,7 +48,7 @@ l_german:
     sm_synchronized_defenses_3_desc:0 "§RSetzt voraus:§! §YSEMIAUTONOME VERTEIDIGUNG§!\n §LVollständig Computergesteuerte Waffen- und Zielsysteme erhöhen die Effizienz der Defensivsysteme noch weiter§!"
     
     sm_synchronized_defenses_4:0 "KI-Defensivmatrix"
-    sm_synchronized_defenses_4_desc:0 "§RSetzt voraus:§! §YSEMI-AUTONOMOUS DEFENSES§!\n §LLässt eine eigens konzipierte KI die Defensivsysteme übernehmen, für maximale Effizienz.§!"
+    sm_synchronized_defenses_4_desc:0 "§RSetzt voraus:§! §YSEMIAUTONOME VERTEIDIGUNG§!\n §LLässt eine eigens konzipierte KI die Defensivsysteme übernehmen, für maximale Effizienz.§!"
     
     sm_rse_module_hangar_1:0 "Stationäre Jägerschwadrone"
     sm_rse_module_hangar_1_desc:0 "§LStationiert Elite-Jägerschwadrone auf dem Raumhafen, zur Verteidigung gegen Raketen- und Bomberangriffe§!\n §WRaumhafeneffekt\n Jägerschwadrone: §!§G3§!§W\n Bomberschwadrone: §!§G1§!"
@@ -96,10 +96,10 @@ l_german:
     sm_rse_module_weapon_m4:0 "Raketenplatform Mk.IV"
     sm_rse_module_weapon_m4_desc:0 "§YEine Batterie §RTorpedorohre§! für den Raumhafen§!\n §WRaumhafeneffekt\n Torpedorohre: §!§G2§!§W\n Installierte Geschütze: §!§GZerstörertorpedos§!"
  
-    sm_rse_module_weapon_xl_1:0 "Focused Arc Emitter Battery"
+    sm_rse_module_weapon_xl_1:0 "Fokussierte Lichtbogenemitter"
     sm_rse_module_weapon_xl_1_desc:0 "§YEine Batterie §RLichtbogenemitter§! für den Raumhafen§!\n §WRaumhafeneffekt\n Emitterspulen: §!§G2§!§W\n Installierte Geschütze: §!§GFokussierter Lichtbogenemitter§!"
  
-    sm_rse_module_weapon_xl_2:0 "Neutron Torpedo Battery"
+    sm_rse_module_weapon_xl_2:0 "Neutronenbeschleuniger"
     sm_rse_module_weapon_xl_2_desc:0 "§YEine Batterie §RTorpedorohre§! für den Raumhafen§!\n §WRaumhafeneffekt\n Torpedorohre: §!§G2§!§W\n Installierte Geschütze: §!§GNeutronentorpedos§!"
  
  
