@@ -11,7 +11,7 @@ l_english:
 #TheRenegade 10/04/17
 
 
- #Shield Modules
+ #TECH - Shield Modules
     tech_rse_shields_1:0 "Spaceport Shield Array MK I"
     tech_rse_shields_1_desc:0 "You have shields on your ships, now we have made them powerful enough for your Spaceports!"
     
@@ -22,7 +22,7 @@ l_english:
     tech_rse_shields_3_desc:0 "This unlocks increased tech, further increasing the regen and durability of your spaceport shield arrays. Spaceports with these installed are virtually impregnable bastions in space."
  
  
- #Hull Modules
+ #TECH - Hull Modules
     tech_reinforced_hull_1:0 "Bulkhead Reinforcments"
     tech_reinforced_hull_1_desc:0 "Heavy duty reinforced bulkheads for your spaceports drastically improve their survivability in combat."
  
@@ -33,7 +33,7 @@ l_english:
     tech_reinforced_hull_3_desc:0 "By having a liquid living metal skin, the self-regeneration of your spaceports is dramitcally increased."
 
 
- #Armor Modules
+ #TECH - Armor Modules
     tech_rse_module_armor_1:0 "Reinforced Spaceport Blast Doors"
     tech_rse_module_armor_1_desc:0 "Introducing automatic bulkheads, blast doors and window coverings, your spaceports offer increased damage mitigation."
     
@@ -44,7 +44,7 @@ l_english:
     tech_rse_module_armor_3_desc:0 "Ablative Armor is the epitmoe of spaceport armor. Virtually impregnable, any spaceport fit with this kit will be a force to be reckoned with."
 
 
- #Weapon Modules
+ #TECH - Weapon Modules
     tech_synchronized_defences_2:0 "Semi-Autonomous Defense Matrix"
     tech_synchronized_defences_2_desc:0 "Turning over a portion of targetting to computers, this unlocks moudles for spaceport defense."
 
@@ -94,7 +94,7 @@ l_english:
     tech_rse_hangar_2_desc:0 "That's no moon. It's a space station."
     
     
- #Energy Modules
+ #TECH - Energy Modules
     tech_solar_panel_network_2:0 "Solar Panel MK II"
     tech_solar_panel_network_2_desc:0 "Large Scale Solar Panels for Starbases."
  
@@ -114,7 +114,7 @@ l_english:
     tech_solar_panel_network_7_desc:0 "We need moar powah for those hungry hungry spaceports!"
 
     
- #Mineral Modules
+ #TECH - Mineral Modules
     tech_material_factory_1:0 "Nano Products"
     tech_material_factory_1_desc:0 "An energy intensive machine that makes small amounts of minerals."
  
@@ -122,7 +122,7 @@ l_english:
     tech_material_factory_2_desc:0 "Enables the ability to capture and mine passing asteroids using an energy tractor beam."
  
     tech_material_factory_3:0 "Moon Strip Mining"
-    tech_material_factory_3_desc:0 "BOOM! Make your presence known, we now strip mine moon!"
+    tech_material_factory_3_desc:0 "BOOM! Make your presence known, we now strip mine the moon!"
     
     tech_material_factory_4:0 "Energy to Matter"
     tech_material_factory_4_desc:0 "A factory that converts energy into minerals."
@@ -131,7 +131,7 @@ l_english:
     tech_material_factory_5_desc:0 "A meeting place for miners to organize themselves and share the latest technology, boosting this planets mineral output significantly."
 
     
- #Food Modules
+ #TECH - Food Modules
     tech_orbital_hydroponics_2:0 "Zero Gravity Hydroponics"
     tech_orbital_hydroponics_2_desc:0 "New technologies allow for additional ways to produce food in orbit."
  
@@ -142,7 +142,7 @@ l_english:
     tech_orbital_hydroponics_4_desc:0 "Food from energy?? Whaaaat?!?! At least it's not GMO!..........or people."
 
     
- #Ship Assembly Modules
+ #TECH - Ship Assembly Modules
     tech_doctrine_manufacturing_standards_1:0 "Spaceport Automated Shipyard"
     tech_doctrine_manufacturing_standards_1_desc:0 "Robotic workers and automatic manufacturing allow for a increased build time and a higher quality end-product."
     
@@ -153,7 +153,7 @@ l_english:
     tech_doctrine_manufacturing_standards_3_desc:0 "Universal components, database uplinks, AI controlled assembly, all these have lead to a built standard that is second to none in the galaxy."
 
  
- #Media and Propaganda Modules
+ #TECH - Media and Propaganda Modules
     tech_media_1:0 "Mass Radio Media"
     tech_media_1_desc:0 "Grants the ability to broadcast Government-Sanctioned Radio Programs on a global scale"
  
@@ -165,7 +165,7 @@ l_english:
     
     
     
- #Observation and Listening Posts
+ #TECH - Observation and Listening Posts
     tech_orbital_sensor_array_2:0 "Orbital Astrometrics Lab"
     tech_orbital_sensor_array_2_desc:0 "Provides an increase to sensor range and a boost to planetary science output."
     
@@ -179,7 +179,7 @@ l_english:
     tech_listening_post_2_desc:0 "Make those lasers go faster and further than before!.....wait....."
  
  
- #Army Modules
+ #TECH - Army Modules
     tech_rse_army_1:0 "Orbital Recruitment Offices"
     tech_rse_army_1_desc:0 "Recruitment offices on Spaceports provide a boost to civilian army recruitment and a convenient place for people to take the black."
     
@@ -193,7 +193,7 @@ l_english:
     tech_rse_army_4_desc:0 "Duty - Honor - Country"
 
  
- #Science Modules
+ #TECH - Science Modules
     tech_rse_pop_growth:0 "Gene-Splicing Lab"
     tech_rse_pop_growth_desc:0 "Enhanced Gene-splicing technology unlocks an accelerated growth lab for your planet's population."
     
@@ -203,7 +203,7 @@ l_english:
     tech_spaceport_researchers:0 "Dedicated Spaceport Tech Researchers"
     tech_spaceport_researchers_desc:0 "A dedicated team of researchers specifically for reseaching Spaceport Tech. Side effect, bonus research speeds and alternatives!"
   
- #Strategic Resource Modules
+ #TECH - Strategic Resource Modules
     tech_rse_strategic_resource_1:0 "Dark Matter Generation"
     tech_rse_strategic_resource_1_desc:0 "Unlocks the ability to create artifical Dark Matter"
     
@@ -238,7 +238,7 @@ l_english:
     tech_rse_strategic_resource_11_desc:0 "Unlocks the ability to create artifical Pitharan Dust"
     
  
- #Repeatable Techs
+ #TECH - Repeatable Techs
  
     tech_repeatable_orbital_station_health:0 "Increased Manufacturing Standards"
     tech_repeatable_orbital_station_health_desc:0 "Increaed regulations and standards has allowed you to retrofit your spaceports and increase their overall health."
@@ -246,6 +246,11 @@ l_english:
     tech_repeatable_orbital_station_damage:0 "Increased Weaponry Payloads"
     tech_repeatable_orbital_station_damage_desc:0 "Micronization technology has allowed denser, deadlier weaponry payloads allowing your spaceports weapon systems to pack a bigger punch."
  
+ 
+  #TECH - Non-Repeatable Misc Techs
+  
+    tech_spaceport_researchers:0 "Spaceport Research Team"
+    tech_spaceport_researchers_desc:0 "A dedicated group of researchers specifically dedicated to researching out new and improved spaceport modules. Through collaboration and resource sharing this team has help increase your overall research speeds and added research alternatives."
  
  
  
