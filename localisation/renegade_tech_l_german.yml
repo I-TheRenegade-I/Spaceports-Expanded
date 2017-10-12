@@ -144,105 +144,105 @@ l_german:
 
     
  #Ship Assembly Modules
-    tech_doctrine_manufacturing_standards_1:0 "Spaceport Automated Shipyard"
-    tech_doctrine_manufacturing_standards_1_desc:0 "Robotic workers and automatic manufacturing allow for a increased build time and a higher quality end-product."
+    tech_doctrine_manufacturing_standards_1:0 "Automatisierte Orbitalwerft"
+    tech_doctrine_manufacturing_standards_1_desc:0 "Robotische Arbeitskräfte, automatisierte Werkstätten und Fließbandproduktion sorgen für schnelleren und kostengünstigeren Schiffsbau."
     
-    tech_doctrine_manufacturing_standards_2:0 "Automated Shipyard MK II"
-    tech_doctrine_manufacturing_standards_2_desc:0 "Laser guided cutting, prefab components and remote assembly has again increased overall speed and quality of starships"
+    tech_doctrine_manufacturing_standards_2:0 "Vorgefertigte Komponenten"
+    tech_doctrine_manufacturing_standards_2_desc:0 "Vorgefertigte, standardisierte Komponenten und Hüllenteile erhöhen die Baugeschwindigkeit von Orbitalwerften weiter."
     
-    tech_doctrine_manufacturing_standards_3:0 "Automated Shipyard MK III"
-    tech_doctrine_manufacturing_standards_3_desc:0 "Universal components, database uplinks, AI controlled assembly, all these have lead to a built standard that is second to none in the galaxy."
+    tech_doctrine_manufacturing_standards_3:0 "KI-gesteuerte Fertigung"
+    tech_doctrine_manufacturing_standards_3_desc:0 "Eine KI wird mit der Montage der Schiffsrümpfe beauftragt, um so noch mehr aus den Werften heraus zu holen."
 
  
  #Media and Propaganda Modules
-    tech_media_1:0 "Mass Radio Media"
-    tech_media_1_desc:0 "Grants the ability to broadcast Government-Sanctioned Radio Programs on a global scale"
+    tech_media_1:0 "Massenmedium Radio"
+    tech_media_1_desc:0 "Durch das einrichten orbitaler Radiosender ließe sich Planetenweit Radio ausstrahlen."
  
-    tech_media_2:0 "Mass Televised Media"
-    tech_media_2_desc:0 "Grants the ability to broadcast Government-Sanctioned Televison Programs on a global scale"
+    tech_media_2:0 "Massenmedium Fernsehn"
+    tech_media_2_desc:0 "Durch das einrichten orbitaler Fernsehsender ließe sich Planetenweit Fernsehn ausstrahlen."
     
-    tech_media_psionic:0 "Telepathic Mood Array"
-    tech_media_psionic_desc:0 "The ability to transmit thoughts and Government-Sanctioned messages telepathically"
+    tech_media_psionic:0 "Telepatische Stimmungsregler"
+    tech_media_psionic_desc:0 "Orbitale Psi-Transmitter könnten es ermöglichen die Gedanken unserer Bürger psionisch zu steuern"
     
     
     
  #Observation and Listening Posts
-    tech_orbital_sensor_array_2:0 "Orbital Astrometrics Lab"
-    tech_orbital_sensor_array_2_desc:0 "Provides an increase to sensor range and a boost to planetary science output."
+    tech_orbital_sensor_array_2:0 "Orbitales Observatorium"
+    tech_orbital_sensor_array_2_desc:0 "Ohne den Einfluss der Atmosphäre auf unsere Teleskope können wir uneingeschränkt in den Raum blicken."
     
-    tech_orbital_sensor_array_3:0 "Orbital Relativity Array"
-    tech_orbital_sensor_array_3_desc:0 "Further increases science outputs and planetary sensor range. The past, like the future, is indefinite and exists only as a spectrum of possibilities."
+    tech_orbital_sensor_array_3:0 "Orbitaler Supercomputer"
+    tech_orbital_sensor_array_3_desc:0 "Orbitale Supercomputer sind in der Lage planetare Labore besser zu verbinden und können Flottenbewegungen besser Voraussagen."
     
-    tech_listening_post_1:0 "Laser Communication Interception"
-    tech_listening_post_1_desc:0 "Unlocks the ability to use laser technology to intercept incomming fleets FTL signatures and communications."
+    tech_listening_post_1:0 "Laser Antennen"
+    tech_listening_post_1_desc:0 "Laserantennen sorgen for schnelleren Datentransfer und können Schiffe auf größere Entfernung anpeilen."
  
-    tech_listening_post_2:0 "Advanced Laser Com Sensor Physics"
-    tech_listening_post_2_desc:0 "Make those lasers go faster and further than before!.....wait....."
+    tech_listening_post_2:0 "Phasenlaser Antennen"
+    tech_listening_post_2_desc:0 "Phasenverschobene Laser können mehr Daten gleichzeitig versenden und dringen tiefer in den Raum vor."
  
  
  #Army Modules
-    tech_rse_army_1:0 "Orbital Recruitment Offices"
-    tech_rse_army_1_desc:0 "Recruitment offices on Spaceports provide a boost to civilian army recruitment and a convenient place for people to take the black."
+    tech_rse_army_1:0 "Besatzungs Trainingslager"
+    tech_rse_army_1_desc:0 "Hightech Kampfschiffe benötigen Besatzungen mit bester Ausbildung und top Kondition, für mehr Effizienz im Kampf."
     
-    tech_rse_army_2:0 "Expanded Crew Training Facilities"
-    tech_rse_army_2_desc:0 "Enables training of elite cstarship crewmembers. Crew trained at properly equipped spaceports will be morw effective and deadly at their assigned tasks."
+    tech_rse_army_2:0 "Offiziersakademie"
+    tech_rse_army_2_desc:0 "Besser ausgebildete Offiziere können größere Flotten handhaben und sind situationsbewusster als zuvor."
     
-    tech_rse_army_3:0 "Station Security Force Recruitment offices"
-    tech_rse_army_3_desc:0 "Allows the recruitment of an elite military squad to guard your spaceport and operate it's weapons systems."
+    tech_rse_army_3:0 "Stationäre Sicherheitstrupps"
+    tech_rse_army_3_desc:0 "Maximale Alarmbereitschaft druch eigens stationierte Elite Sicherheitskräfte, AUF GEFECHTSSTATION!"
     
-    tech_rse_army_4:0 "Military Officer Academy"
-    tech_rse_army_4_desc:0 "Duty - Honor - Country"
+    tech_rse_army_4:0 "Orbitales Rekrutierungsbüro"
+    tech_rse_army_4_desc:0 "Dank orbital stationierter Rekrutierungsbeauftragter kommt auch der faulste Bürger nicht am Militärdienst vorbei!"
 
  
  #Science Modules
-    tech_rse_pop_growth:0 "Gene-Splicing Lab"
-    tech_rse_pop_growth_desc:0 "Enhanced Gene-splicing technology unlocks an accelerated growth lab for your planet's population."
+    tech_rse_pop_growth:0 "Gen-Splicing Labor"
+    tech_rse_pop_growth_desc:0 "Gentherapien erhöhen die Wachstumsrate aller Bewohner."
     
-    tech_rse_pop_growth_2:0 "Robot Manufacturing Lab"
-    tech_rse_pop_growth_2_desc:0 "Enhanced construction techniques and zero-gravity assembly arrays allow for faster and more efficent contruction of robots."
+    tech_rse_pop_growth_2:0 "Roboterfabrik"
+    tech_rse_pop_growth_2_desc:0 "Roboter, im Orbit gebaut, schnellstmöglich einsetzbar."
     
-    tech_spaceport_researchers:0 "Dedicated Spaceport Tech Researchers"
-    tech_spaceport_researchers_desc:0 "A dedicated team of researchers specifically for reseaching Spaceport Tech. Side effect, bonus research speeds and alternatives!"
+    tech_spaceport_researchers:0 "Orbitale Forschunglabore"
+    tech_spaceport_researchers_desc:0 "Eigens eingerichtete Labore für Null-G Forschung auf dem Raumhafen bringen Forschung im"
   
  #Strategic Resource Modules
-    tech_rse_strategic_resource_1:0 "Dark Matter Generation"
-    tech_rse_strategic_resource_1_desc:0 "Unlocks the ability to create artifical Dark Matter"
+    tech_rse_strategic_resource_1:0 "Dunkle Materie Generator"
+    tech_rse_strategic_resource_1_desc:0 "Physikalische Durchbrüche erlauben die Erstellung und Handhabung eines Miniatur schwarzen Lochs und die Extraktion von dunkler Materie aus diesem"
     
-    tech_rse_strategic_resource_2:0 "Garanthium Ore Forge"
-    tech_rse_strategic_resource_2_desc:0 "Unlocks the ability to create artifical Garanthium Ore"
+    tech_rse_strategic_resource_2:0 "Garanthium Schmelze"
+    tech_rse_strategic_resource_2_desc:0 "Durch einfangen passierender Asteroiden können wir nahezu unendliche Mengen Garanthium sammeln und verarbeiten"
     
-    tech_rse_strategic_resource_3:0 "Living Metal Fabrication"
-    tech_rse_strategic_resource_3_desc:0 "Unlocks the ability to create artifical Living Metal"
+    tech_rse_strategic_resource_3:0 "Organometall Fabrikation"
+    tech_rse_strategic_resource_3_desc:0 "Durch eine Reihe komplexer Prozesse ist es möglich ein nahezu perfektes Immitat lebenden Metalls herzustellen"
     
-    tech_rse_strategic_resource_4:0 "Lythuric Gas Synthesizer"
-    tech_rse_strategic_resource_4_desc:0 "Unlocks the ability to create artifical Lythuric Gas"
+    tech_rse_strategic_resource_4:0 "Lythurgas Synthetsierer"
+    tech_rse_strategic_resource_4_desc:0 "§LDurch das komprimieren verschiedener Edelgase und Sauerstoff lässt sich nahezu authentisches Lythurgas synthetisieren"
     
-    tech_rse_strategic_resource_5:0 "Neutronium Ore Foundry"
-    tech_rse_strategic_resource_5_desc:0 "Unlocks the ability to create artifical Neutronium Ore"
+    tech_rse_strategic_resource_5:0 "Neutronium Abbaubasis"
+    tech_rse_strategic_resource_5_desc:0 "Theoretisch haben alle Sterne mehr oder weniger brauchbare Mengen Neutronium in ihrem Inneren. Es ist zwar gefählich aber wir können es definitiv aus ihnen gewinnen."
     
-    tech_rse_strategic_resource_6:0 "Orillium Ore Extraction"
-    tech_rse_strategic_resource_6_desc:0 "Unlocks the ability to create artifical Orillium Ore"
+    tech_rse_strategic_resource_6:0 "Orillium Schmelze"
+    tech_rse_strategic_resource_6_desc:0 "Duch das Legieren verschiedener exotischer Metalle haben unsere Wissenschaftler einen Weg gefunden künstliches Orillium herzustellen"
     
-    tech_rse_strategic_resource_7:0 "Teldar Crystal Development"
-    tech_rse_strategic_resource_7_desc:0 "Unlocks the ability to create artifical Teldar Crystal"
+    tech_rse_strategic_resource_7:0 "Teldarkristall Abscheider"
+    tech_rse_strategic_resource_7_desc:0 "Wissenschaftler haben entdeckt, dass der Abfall aus den Betharian-Kraftwerken mit Hilfe komplexer Verfahren zu einem nahezu perfekten Teldarkristall Supplement verarbeitet werden kann"
     
-    tech_rse_strategic_resource_8:0 "Yurantic Crystal Synthesizing Lab"
-    tech_rse_strategic_resource_8_desc:0 "Unlocks the ability to create artifical Yurantic Crystal"
+    tech_rse_strategic_resource_8:0 "Yurantkristall Labor"
+    tech_rse_strategic_resource_8_desc:0 "Ursprünglich wuchsen diese Kristalle an einem hochradioaktiven Leck im Reaktorkern des Raumhafens, jetzt gedeihen sie noch besser in einer kontrollierten Laborumgebung"
     
-    tech_rse_strategic_resource_9:0 "Artifical Zro Distillery"
-    tech_rse_strategic_resource_9_desc:0 "Unlocks the ability to create artifical Zro"
+    tech_rse_strategic_resource_9:0 "Kunst-Zro Destille"
+    tech_rse_strategic_resource_9_desc:0 "Nachdem das Verbot dieser bewusstseinserwiternden Substanz aufgehoben wurde, da sie bei einigen Individuen das psionische Potenzial fördert, synthetisieren wir jetzt künstliches Zro und verteilen kontrollierte Dosen an unsere besten Offiziere"
     
-    tech_rse_strategic_resource_10:0 "Engos Vaporization Lab"
-    tech_rse_strategic_resource_10_desc:0 "Unlocks the ability to create artifical Engos Vapor"
+    tech_rse_strategic_resource_10:0 "Engos Raffinerie"
+    tech_rse_strategic_resource_10_desc:0 "Aus den Tiefen von Gasgiganten heraufgepumptes, rohes Engos wird hier in Massenproduktion zu seiner brauchbaren Form raffiniert"
     
-    tech_rse_strategic_resource_11:0 "Pitharan Dust Fertilizer Plant"
-    tech_rse_strategic_resource_11_desc:0 "Unlocks the ability to create artifical Pitharan Dust"
+    tech_rse_strategic_resource_11:0 "Pitharanstaub Düngerfabrik"
+    tech_rse_strategic_resource_11_desc:0 "Laut neuester Studien tritt Pitharanstaub sehr häufig auf und lässt sich am besten direkt orbital zu hochpotentem Dünger veraabeiten"
     
  
  #Repeatable Techs
  
-    tech_repeatable_orbital_station_health:0 "Increased Manufacturing Standards"
-    tech_repeatable_orbital_station_health_desc:0 "Increaed regulations and standards has allowed you to retrofit your spaceports and increase their overall health."
+    tech_repeatable_orbital_station_health:0 "Manufakturstandards"
+    tech_repeatable_orbital_station_health_desc:0 "Verbesserte Standards und Kontrollen erlauben Einheitlichkeit beim Bau von Raumhäfen, was die Qualität massiv steigert."
  
-    tech_repeatable_orbital_station_damage:0 "Increased Weaponry Payloads"
-    tech_repeatable_orbital_station_damage_desc:0 "Micronization technology has allowed denser, deadlier weaponry payloads allowing your spaceports weapon systems to pack a bigger punch."
+    tech_repeatable_orbital_station_damage:0 "Magazinerweiterung"
+    tech_repeatable_orbital_station_damage_desc:0 "Magazinerweiterungen und Generatorminiaturisierung erlauben den Waffensystemen einen erhöhten Schadensausstoß."
