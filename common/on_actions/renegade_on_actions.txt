@@ -6,6 +6,13 @@
 #TheRenegade 09/27/17
 
 
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		renegadeInit.1
+	}
+}
+
 # A ship has been built
 # Root = Ship
 # From = Planet

@@ -5,25 +5,25 @@
 #Version 2.0
 #TheRenegade 09/25/17
 
-
-component_set = {
-	key = "RSE_DEF_A1"
-	icon = "GFX_ship_part_armor_1"
-	icon_frame = 1
-
-}
-
-component_set = {
-	key = "RSE_DEF_A2"
-	icon = "GFX_ship_part_armor_2"
-	icon_frame = 1
-}
-
-component_set = {
-	key = "RSE_DEF_A3"
-	icon = "GFX_ship_part_armor_3"
-	icon_frame = 1
-}
+## For future use??
+#component_set = {
+#	key = "RSE_DEF_A1"
+#	icon = "GFX_ship_part_armor_1"
+#	icon_frame = 1
+#
+#}
+#
+#component_set = {
+#	key = "RSE_DEF_A2"
+#	icon = "GFX_ship_part_armor_2"
+#	icon_frame = 1
+#}
+#
+#component_set = {
+#	key = "RSE_DEF_A3"
+#	icon = "GFX_ship_part_armor_3"
+#	icon_frame = 1
+#}
 
 component_set = {
 	key = "RSE_SHIELD1"
