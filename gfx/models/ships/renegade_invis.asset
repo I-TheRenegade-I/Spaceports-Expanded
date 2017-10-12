@@ -1,19 +1,4 @@
 
-#entity = {
-#	name = "rse_invisible_section_entity"
-#	pdxmesh = ""
-#	scale = 1
-#	locator = { name = "part1" }
-#	locator = { name = "part2" }
-#	locator = { name = "part3" }
-#	locator = { name = "part4" }
-#	locator = { name = "part5" }
-#	locator = { name = "part6" }
-#	locator = { name = "part7" }
-#	locator = { name = "part8" }
-#	locator = { name = "part9" }
-#	locator = { name = "part10" }
-#}
 
 entity = {
 	name = "arthropoid_01_orbital_station_rse_invis_entity"

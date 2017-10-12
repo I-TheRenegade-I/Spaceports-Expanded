@@ -127,6 +127,16 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }
 
 entity = {
@@ -155,6 +165,16 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }
 
 entity = {
@@ -175,6 +195,16 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }
 
 entity = {
@@ -195,6 +225,16 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }
 
 entity = {
@@ -228,6 +268,16 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }
 
 entity = {
@@ -266,6 +316,16 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }
 
 entity = {
@@ -292,4 +352,14 @@ entity = {
 	locator = { name = "part8" }
 	locator = { name = "part9" }
 	locator = { name = "part10" }
+	locator = { name = "part11" position = { 0 0 0 } }
+	locator = { name = "part12" position = { 0 0 0 } }
+	locator = { name = "part13" position = { 0 0 0 } }
+	locator = { name = "part14" position = { 0 0 0 } }
+	locator = { name = "part15" position = { 0 0 0 } }
+	locator = { name = "part16" position = { 0 0 0 } }
+	locator = { name = "part17" position = { 0 0 0 } }
+	locator = { name = "part18" position = { 0 0 0 } }
+	locator = { name = "part19" position = { 0 0 0 } }
+	locator = { name = "part20" position = { 0 0 0 } }
 }

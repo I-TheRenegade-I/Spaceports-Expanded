@@ -107,8 +107,9 @@
     sm_solar_panel_network3:0 "Solar Panel MK III"
     sm_solar_panel_network4:0 "Solar Panel MK IV"
     sm_solar_panel_network5:0 "Planetary Energy Grid"
-    solar_panel_network7:0 "Spaceport Anti-Matter Power Plant"
-    solar_panel_network8:0 "Spaceport Zero-Point Power Plant"
+    sm_solar_panel_network5_desc:0 "§LUsing high gain solar panels, we can collect pure solar radiation and beam the increased energy down to our planet below, boosting the efficency of it's power plants.\n §!§WPlanet Modifier§! \n§WEnergy Output §!§G+15%§!"
+    sm_solar_panel_network7:0 "Spaceport Anti-Matter Power Plant"
+    sm_solar_panel_network8:0 "Spaceport Zero-Point Power Plant"
     
  #Mineral Modules
     sm_material_factory_1:0 "Nano Factory"
@@ -116,7 +117,8 @@
     sm_material_factory_3:0 "Moon Strip Mining"
     sm_material_factory_4:0 "Energy to Matter Plant"
     sm_material_factory_5:0 "Mining Guilds"
-	
+    sm_material_factory_5_desc:0 "§LProvides a meeting place for mienrs and their workers, sharing the newest information and technology. \n §!§WPlanet Modifier§! \n§WMineral Output §!§G+15%§!" 
+    
  #Food Modules
     sm_hydroponic_farms_2:0 "Stacked Vegetable Farm"
     sm_hydroponic_farms_3:0 "Soylent Green Factory"
@@ -141,31 +143,31 @@
  
  #Media and Propaganda Modules
     sm_ministry_of_war_1:0 "Mininstry of War Radio Station"
-    sm_ministry_of_war_1_desc:0 "Enables the ability to transmit pro-government and pro-war radio broadcasts."
+    sm_ministry_of_war_1_desc:0 "§LEnables the ability to transmit pro-government and pro-war radio broadcasts.§!"
     
     sm_ministry_of_war_2:0 "Mininstry of War Television Station"
-    sm_ministry_of_war_2_desc:0 "Enables the ability to transmit pro-government and pro-war television broadcasts."
+    sm_ministry_of_war_2_desc:0 "§LEnables the ability to transmit pro-government and pro-war television broadcasts.§!"
     
     sm_state_media_news_1:0 "State Media Radio Station"
-    sm_state_media_news_1_desc:0 "Enables the ability to tranmits Government-sanctioned radio programs across an entire world."
+    sm_state_media_news_1_desc:0 "§LEnables the ability to tranmits Government-sanctioned radio programs across an entire world.§!"
     
     sm_state_media_news_2:0 "State Media Television Station"
-    sm_state_media_news_2_desc:0 "Enables the ability to tranmits Government-sanctioned television programs across an entire world."
+    sm_state_media_news_2_desc:0 "§LEnables the ability to tranmits Government-sanctioned television programs across an entire world.§!"
     
     sm_private_news_radio_1:0 "Private Radio Station"
-    sm_private_news_radio_1_desc:0 "Allows the creation of a private radio station on your spaceports."
+    sm_private_news_radio_1_desc:0 "§LAllows the creation of a private radio station on your spaceports.§!"
     
     sm_private_news_radio_2:0 "Syndicated Radio Station"
-    sm_private_news_radio_2_desc:0 "Allows the creation of a Synidacted radio station on your spaceports, now you'll never miss your show!"
+    sm_private_news_radio_2_desc:0 "§LAllows the creation of a Synidacted radio station on your spaceports, now you'll never miss your show!§!"
     
     sm_psionic_mood_array:0 "Orbital Telepathic Mood Array"
-    sm_psionic_mood_array_desc:0 "Enables the ability to make people happy, FROM SPACE!!!"
+    sm_psionic_mood_array_desc:0 "§LEnables the ability to make people happy, FROM SPACE!!!§!"
     
     sm_ministry_of_propaganda_1:0 "Propganda Pamplets"
-    sm_ministry_of_propaganda_1_desc:0 "Provides the means of leaving pro-government literature in public areas."
+    sm_ministry_of_propaganda_1_desc:0 "§LProvides the means of leaving pro-government literature in public areas.§!"
     
     sm_ministry_of_propaganda_2:0 "State Police"
-    sm_ministry_of_propaganda_2_desc:0 "Allows the recruitment of a State Police, if people won't be happy, we'll force them to be happy."
+    sm_ministry_of_propaganda_2_desc:0 "§LAllows the recruitment of a State Police, if people won't be happy, we'll force them to be happy.§!"
     
     
  #Observation and Listening Posts
