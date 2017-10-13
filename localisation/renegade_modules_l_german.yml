@@ -1,4 +1,4 @@
-l_german:
+﻿l_german:
 ##############################################/
 # Renegade's Spaceports Expanded ############/
 ############################################/
@@ -108,8 +108,8 @@ l_german:
     sm_solar_panel_network3:0 "Solarzellen Mk.III"
     sm_solar_panel_network4:0 "Solarzellen Mk.IV"
     sm_solar_panel_network5:0 "Planetares Energienetz"
-    solar_panel_network7:0 "Raumhafen Antimateriereaktor"
-    solar_panel_network8:0 "Raumhafen Nullpunktreaktor"
+    solar_panel_network6:0 "Raumhafen Antimateriereaktor"
+    solar_panel_network7:0 "Raumhafen Nullpunktreaktor"
     
  #Mineral Modules
     sm_material_factory_1:0 "Nanitenfabrik"

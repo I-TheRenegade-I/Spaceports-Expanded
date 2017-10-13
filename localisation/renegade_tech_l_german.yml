@@ -1,4 +1,5 @@
-l_german:
+﻿l_german:
+
 ##############################################/
 # Renegade's Spaceports Expanded ############/
 ############################################/
@@ -12,7 +13,7 @@ l_german:
 #Translator: SonOfTheStars(SotS) 2017/10/11
 
 
- #TECH - Shield Modules
+ #Shield Module Tech
     tech_rse_shields_1:0 "Raumhafen Schildmodul Mk.I"
     tech_rse_shields_1_desc:0 "Schilde gibts auf Schiffen...und jetzt auch auf Raumhäfen!"
     
@@ -23,7 +24,7 @@ l_german:
     tech_rse_shields_3_desc:0 "Weitere Generatoren ermöglichen das Schichtenweise anlegen von Schilden, was den Raumhafen zur undurchdringlichen festung macht."
  
  
- #TECH - Hull Modules
+ #Hull Module Tech
     tech_reinforced_hull_1:0 "Verstärkte Spundwände"
     tech_reinforced_hull_1_desc:0 "Stark verstärkte Spundwände und Schotten sorgen für mehr Stabilität im Raumhafeninneren."
  
@@ -34,7 +35,7 @@ l_german:
     tech_reinforced_hull_3_desc:0 "Tragende Komponenten aus lebendem Metall zu fertigen ermöglicht es dem Raumhafen sich von selbst in Stand zu setzen."
 
 
- #TECH - Armor Modules
+ #Armor Module Tech
     tech_rse_module_armor_1:0 "Automatische Abriegelung"
     tech_rse_module_armor_1_desc:0 "Automatisch abriegelnde Schotten, Bunkertüren und Fensterschützer sorgen für weniger verwundbare Fläche am Raumhafen."
     
@@ -45,7 +46,7 @@ l_german:
     tech_rse_module_armor_3_desc:0 "Installiert generatoren und Systeme für reaktive Panzerung auf dem raumhafen, was die Panzerungsleistung auf das Maximum steigert."
 
 
- #TECH - Weapon Modules
+ #Weapon Module Tech
     tech_synchronized_defences_2:0 "Semiautonome Defensivmatrix"
     tech_synchronized_defences_2_desc:0 "Assistenzsysteme sollten der Besatzung des Raumhafens im Kampf helfen um effektiver zu Handeln."
 
@@ -95,7 +96,7 @@ l_german:
     tech_rse_hangar_2_desc:0 "Wir sollten einige der kommerziell genutzten Hangars auf unseren Raumhäfen in ein Hangar für Bombergeschwader umwandeln, um aktiv gegen Feindschiffe vorgehen zu können!"
     
     
- #TECH - Energy Modules
+ #Energy Module Tech
     tech_solar_panel_network_2:0 "Große Solarzellen"
     tech_solar_panel_network_2_desc:0 "Wir sollten die bestehenden Solarsysteme für Raumhäfen noch weiter ausbauen können...."
  
@@ -115,7 +116,7 @@ l_german:
     tech_solar_panel_network_7_desc:0 "Der Energieverbrauch unserer Raumhäfen steigt bald ins unermessliche...wir muss auch hier auf die kürzlich entdecken Null-Punkt-Reaktoren zurückgreifen!"
 
     
- #TECH - Mineral Modules
+ #Mineral Module Tech
     tech_material_factory_1:0 "Nanitenfabrikation"
     tech_material_factory_1_desc:0 "Naniten könnten unter hohem Energieaufwand Moleküle so arragieren das aus ihnen brauchbare Materialien werden."
  
@@ -132,7 +133,7 @@ l_german:
     tech_material_factory_5_desc:0 "Ein exclusiver Ort nur für Bergleute sollte ihre Moral steigern und ihnen den Austausch über die neusten Vorkommen und Technologien erlauben."
 
     
- #TECH - Food Modules
+ #Food Module Tech
     tech_orbital_hydroponics_2:0 "Stapelnde Landwirtschaft"
     tech_orbital_hydroponics_2_desc:0 "Vertikale landwirtschaft wurde den im All ohnehin schon knappen Platz weitaus besser nutzen als herkömmliche Hydrokulturen."
  
@@ -143,7 +144,7 @@ l_german:
     tech_orbital_hydroponics_4_desc:0 "Unter extremem Energieaufwand liese sich theoretisch Materie reformieren und würde es erluaben Nahrungsmittel zu replizieren."
 
     
- #TECH - Ship Assembly Modules
+ #Ship Assembly Module Tech
     tech_doctrine_manufacturing_standards_1:0 "Automatisierte Orbitalwerft"
     tech_doctrine_manufacturing_standards_1_desc:0 "Robotische Arbeitskräfte, automatisierte Werkstätten und Fließbandproduktion sorgen für schnelleren und kostengünstigeren Schiffsbau."
     
@@ -166,7 +167,7 @@ l_german:
     
     
     
- #TECH - Observation and Listening Posts
+ #Observation and Listening Post Tech
     tech_orbital_sensor_array_2:0 "Orbitales Observatorium"
     tech_orbital_sensor_array_2_desc:0 "Ohne den Einfluss der Atmosphäre auf unsere Teleskope können wir uneingeschränkt in den Raum blicken."
     
@@ -180,7 +181,7 @@ l_german:
     tech_listening_post_2_desc:0 "Phasenverschobene Laser können mehr Daten gleichzeitig versenden und dringen tiefer in den Raum vor."
  
  
- #TECH - Army Modules
+ #Army Module Tech
     tech_rse_army_1:0 "Besatzungs Trainingslager"
     tech_rse_army_1_desc:0 "Hightech Kampfschiffe benötigen Besatzungen mit bester Ausbildung und top Kondition, für mehr Effizienz im Kampf."
     
@@ -194,7 +195,7 @@ l_german:
     tech_rse_army_4_desc:0 "Dank orbital stationierter Rekrutierungsbeauftragter kommt auch der faulste Bürger nicht am Militärdienst vorbei!"
 
  
- #TECH - Science Modules
+ #Science Module Tech
     tech_rse_pop_growth:0 "Gen-Splicing Labor"
     tech_rse_pop_growth_desc:0 "Gentherapien erhöhen die Wachstumsrate aller Bewohner."
     
@@ -204,7 +205,7 @@ l_german:
     tech_spaceport_researchers:0 "Orbitale Forschunglabore"
     tech_spaceport_researchers_desc:0 "Eigens eingerichtete Labore für Null-G Forschung auf dem Raumhafen bringen Forschung im"
   
- #TECH - Strategic Resource Modules
+ #Strategic Resource Module Tech
     tech_rse_strategic_resource_1:0 "Dunkle Materie Generator"
     tech_rse_strategic_resource_1_desc:0 "Physikalische Durchbrüche erlauben die Erstellung und Handhabung eines Miniatur schwarzen Lochs und die Extraktion von dunkler Materie aus diesem"
     
@@ -239,7 +240,7 @@ l_german:
     tech_rse_strategic_resource_11_desc:0 "Laut neuester Studien tritt Pitharanstaub sehr häufig auf und lässt sich am besten direkt orbital zu hochpotentem Dünger veraabeiten"
     
  
- #TECH - Repeatable Techs
+ #Repeatable Tech Tech
  
     tech_repeatable_orbital_station_health:0 "Manufakturstandards"
     tech_repeatable_orbital_station_health_desc:0 "Verbesserte Standards und Kontrollen erlauben Einheitlichkeit beim Bau von Raumhäfen, was die Qualität massiv steigert."
@@ -248,7 +249,7 @@ l_german:
     tech_repeatable_orbital_station_damage_desc:0 "Magazinerweiterungen und Generatorminiaturisierung erlauben den Waffensystemen einen erhöhten Schadensausstoß."
     
     
-  #TECH - Non-Repeatable Misc Techs
+  #Non-Repeatable Misc Techs
   
     tech_spaceport_researchers:0 "Spaceport Research Team"
     tech_spaceport_researchers_desc:0 "A dedicated group of researchers specifically dedicated to researching out new and improved spaceport modules. Through collaboration and resource sharing this team has help increase your overall research speeds and added research alternatives."

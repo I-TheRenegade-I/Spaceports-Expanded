@@ -147,6 +147,11 @@ spriteTypes = {
 		name = "GFX_spaceport_synchronized_defenses_3"
 		texturefile = "gfx/interface/icons/modules/spaceport_modules_synchronized_defences_3.dds"
 	}
+		spriteType = {
+		name = "GFX_spaceport_synchronized_defenses_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_synchronized_defences_4.dds"
+	}
+	
 	
 ### Engineering Bay
 	spriteType = {
@@ -415,7 +420,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/modules/spaceport_missles_l.dds"
 	}
 	spriteType = {
-		name = "spaceport_missles_m"
+		name = "GFX_spaceport_missles_m"
 		texturefile = "gfx/interface/icons/modules/spaceport_missles_m.dds"
 	}
 	spriteType = {

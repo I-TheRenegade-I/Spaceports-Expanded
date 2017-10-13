@@ -108,8 +108,8 @@
     sm_solar_panel_network4:0 "Solar Panel MK IV"
     sm_solar_panel_network5:0 "Planetary Energy Grid"
     sm_solar_panel_network5_desc:0 "§LUsing high gain solar panels, we can collect pure solar radiation and beam the increased energy down to our planet below, boosting the efficency of it's power plants.\n §!§WPlanet Modifier§! \n§WEnergy Output §!§G+15%§!"
-    sm_solar_panel_network7:0 "Spaceport Anti-Matter Power Plant"
-    sm_solar_panel_network8:0 "Spaceport Zero-Point Power Plant"
+    sm_solar_panel_network6:0 "Spaceport Anti-Matter Power Plant"
+    sm_solar_panel_network7:0 "Spaceport Zero-Point Power Plant"
     
  #Mineral Modules
     sm_material_factory_1:0 "Nano Factory"

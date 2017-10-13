@@ -88,7 +88,7 @@ material_factory_4 = {
 
 #sm_material_factory_5:0 "Mining Guilds"
 material_factory_5 = {
-	icon = "GFX_material_factory_4" 			########### ICON ###########
+	icon = "GFX_mining_guilds" 			########### ICON ###########
 	section = "RSE_REFINERY_SPACEPORT_SECTION"
 	construction_days = 720
 	prerequisites = { "tech_material_factory_5" }
