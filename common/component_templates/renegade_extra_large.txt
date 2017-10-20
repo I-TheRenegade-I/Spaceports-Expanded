@@ -1,0 +1,144 @@
+
+
+
+### Energy Lance 2
+weapon_component_template = {
+	key = "LARGE_ENERGY_LANCE_2"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	icon = "GFX_ship_part_energy_lance_2"
+	icon_frame = 1
+	
+	prerequisites = { "tech_rse_spaceport_lasers_3" }
+	component_set = "RSE_ENERGY_LANCE_2"
+	projectile_gfx = "tachyon_lance"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range weapon_role_anti_armor }
+	
+	target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000	
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000	
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000	
+	}
+}
+
+### Arc Emitter 2
+weapon_component_template = {
+	key = "LARGE_ARC_EMITTER_2"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	icon = "GFX_ship_part_arc_emitter_2"
+	icon_frame = 1
+	
+	prerequisites = { "tech_rse_spaceport_arc_emitter" }
+	component_set = "RSE_ARC_EMITTER_2"
+	projectile_gfx = "focused_arc_emitter"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }
+	
+	target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000	
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000	
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000	
+	}
+}
+
+
+### Mass Accelerator 2
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_MASS_ACCELERATOR_2"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_ship_part_mass_accelerator_2"
+	icon_frame = 1
+	
+	prerequisites = { "tech_rse_spaceport_mass_drivers_3" }
+	component_set = "RSE_MASS_ACCELERATOR_2"
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range }
+	
+	target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000	
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000	
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000	
+	}
+}
+
+### Neutron Torpedos
+weapon_component_template = {
+	key = "ENERGY_TORPEDO_2"
+	size = torpedo
+	entity = "turret_energy_torpedo_entity"
+	type = instant
+	
+	icon = "GFX_ship_part_energy_torpedo_2"
+	icon_frame = 1
+	
+	prerequisites = { "tech_rse_spaceport_energy_torpedoes" }
+	component_set = "RSE_ENERGY_TORPEDO_2"
+	projectile_gfx = "neutron_torpedoes"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	
+	target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000	
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000	
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000	
+	}
+}
+
+### Devastator Torpedoes
+weapon_component_template = {
+	key = "TORPEDO_3"
+	size = torpedo
+	entity = "turret_torpedo_entity"
+	
+	icon = "GFX_ship_part_torpedo_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_rse_spaceport_missiles_3" }
+	component_set = "RSE_TORPEDO_3"
+	projectile_gfx = "large_torpedo_03"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	
+	target_weights = {
+		npc_warship_01 = 5000
+		space_dragon_baby = 5000	
+		massive_ship_fallen_empire = 5000
+		large_ship_fallen_empire = 5000	
+		battleship = 5000
+		cruiser = 2500
+		destroyer = 1000
+		small_ship_fallen_empire = 1000	
+	}
+}

@@ -518,6 +518,20 @@ ship_section_template = {
 		slot_type = weapon
 		locatorname = "xl_gun_02"
 	}
+	
+		component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+	
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
 }
 
 ship_section_template = {

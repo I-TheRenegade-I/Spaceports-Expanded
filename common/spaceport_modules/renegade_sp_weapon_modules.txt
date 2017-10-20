@@ -170,10 +170,10 @@ synchronized_defenses_4 = {
 	}
 	
 	station_modifier = {
-		ship_fire_rate_mult = 10
+		ship_fire_rate_mult = 1
 		ship_weapon_damage = 1
 		ship_tracking_add = 10
-		ship_weapon_range_mult = 10
+		ship_weapon_range_mult = 1.25
 	}
 	ai_weight = { 
 		weight = 2 #weapons are a good thing
@@ -473,7 +473,7 @@ rse_module_weapon_k4 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_mass_drivers_3" }
-	component_set = "MASS_ACCELERATOR_2"
+	component_set = "RSE_MASS_ACCELERATOR_2"
 	spaceport_level = 12
 	
 	cost = {
@@ -788,7 +788,7 @@ rse_module_weapon_l4 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_lasers_3" }
-	component_set = "ENERGY_LANCE_2"
+	component_set = "RSE_ENERGY_LANCE_2"
 	spaceport_level = 12
 	
 	cost = {
@@ -1102,7 +1102,7 @@ rse_module_weapon_m4 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_missiles_3" }
-	component_set = "TORPEDO_3"
+	component_set = "RSE_TORPEDO_3"
 	spaceport_level = 12
 	
 	cost = { 
@@ -1179,7 +1179,7 @@ rse_module_weapon_xl_1 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_arc_emitter" }
-	component_set = "ARC_EMITTER_2"
+	component_set = "RSE_ARC_EMITTER_2"
 	spaceport_level = 15
 	
 	cost = { 
@@ -1199,7 +1199,7 @@ rse_module_weapon_xl_2 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_energy_torpedoes" }
-	component_set = "ENERGY_TORPEDO_2"
+	component_set = "RSE_ENERGY_TORPEDO_2"
 	spaceport_level = 15
 	
 	cost = { 
