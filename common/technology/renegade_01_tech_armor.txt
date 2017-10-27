@@ -97,7 +97,7 @@ tech_rse_module_armor_2 = {
 	tier = 3
 	category = { materials }
 	prerequisites = { "tech_rse_module_armor_1" "tech_spaceport_5" "tech_ship_armor_3" }
-	weight = @tier3weight2
+	weight = @tier2weight4
 	
 	weight_modifier = {
 		factor = 1.25
@@ -130,7 +130,7 @@ tech_rse_module_armor_3 = {
 	is_rare = yes
 	category = { materials }
 	prerequisites = { "tech_rse_module_armor_2" "tech_ship_armor_5" }
-	weight = @tier4weight1
+	weight = @tier3weight4
 	
 	weight_modifier = {
 		factor = 1.25

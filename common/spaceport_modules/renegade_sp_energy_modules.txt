@@ -75,7 +75,7 @@ solar_panel_network5 = {
 	icon = "GFX_planetary_electrical_grid"
 	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
 	construction_days = 540
-	prerequisites = { "tech_solar_panel_network_4" }
+	prerequisites = { "tech_solar_panel_network_5" }
 	spaceport_level = 10
 	
 	cost = {
@@ -85,7 +85,7 @@ solar_panel_network5 = {
 	}	
 	
 	produced_resources = {
-		unity = 1
+		unity = 5
 	}
 	
 	planet_modifier = {

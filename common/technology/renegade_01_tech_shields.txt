@@ -65,7 +65,7 @@ tech_rse_shields_1 = {
 	tier = 1
 	category = { field_manipulation }
 	prerequisites = { "tech_shields_1" }
-	weight = @tier1weight4
+	weight = @tier1weight2
 	
 	weight_modifier = {
 		factor = 1.25
@@ -96,7 +96,7 @@ tech_rse_shields_2 = {
 	tier = 2
 	category = { field_manipulation }
 	prerequisites = { "tech_rse_shields_1" "tech_shields_3" }
-	weight = @tier3weight1
+	weight = @tier2weight4
 	
 	weight_modifier = {
 		factor = 1.25
@@ -128,7 +128,7 @@ tech_rse_shields_3 = {
 	is_rare = yes
 	category = { field_manipulation }
 	prerequisites = { "tech_rse_shields_2" "tech_shields_5" }
-	weight = @tier4weight1
+	weight = @tier3weight4
 
 	weight_modifier = {
 		factor = 1.25
