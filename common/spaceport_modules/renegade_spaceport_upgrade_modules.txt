@@ -11,26 +11,14 @@ spaceport_upgrade_1 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 1
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_armor_add = 25
 		ship_weapon_damage = 0.25
 		ship_fire_rate_mult = 0.1
 	}
-	
-	modifier = {
-		#spaceport_ship_build_speed_mult = 1.0
-	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_2 = {
@@ -39,29 +27,17 @@ spaceport_upgrade_2 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 2
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 500
 		ship_armor_add = 25
 		ship_weapon_damage = 0.35
 		ship_fire_rate_mult = 0.1
 		ship_tracking_add = 1
-		
+
 	}
-	
-	modifier = {
-		spaceport_ship_build_speed_mult = 0.2
-	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_3 = {
@@ -70,29 +46,21 @@ spaceport_upgrade_3 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 3
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 750
 		ship_armor_add = 35
 		ship_weapon_damage = 0.45
 		ship_fire_rate_mult = 0.2
 		ship_tracking_add = 2
-		ship_weapon_range_mult = 0.1		
+		ship_weapon_range_mult = 0.1
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 0.4
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_4 = {
@@ -101,29 +69,21 @@ spaceport_upgrade_4 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 4
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 1250
 		ship_armor_add = 75
 		ship_weapon_damage = 0.55
 		ship_fire_rate_mult = 0.3
 		ship_tracking_add = 3
-		ship_weapon_range_mult = 0.2		
+		ship_weapon_range_mult = 0.2
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 0.6
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_5 = {
@@ -132,13 +92,7 @@ spaceport_upgrade_5 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 5
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 1500
 		ship_armor_add = 95
@@ -148,14 +102,12 @@ spaceport_upgrade_5 = {
 		ship_shield_hp_mult = 0.05
 		ship_weapon_range_mult = 0.3
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 0.8
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_6 = {
@@ -164,13 +116,7 @@ spaceport_upgrade_6 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 6
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 2000
 		ship_armor_add = 100
@@ -180,14 +126,12 @@ spaceport_upgrade_6 = {
 		ship_shield_hp_mult = 0.075
 		ship_weapon_range_mult = 0.4
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 1.0
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 # from this point on the game doesn't track a per level increase. This is a total value for everything
@@ -199,32 +143,24 @@ spaceport_upgrade_7 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 7
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
-		ship_hitpoints_add = 5000 
-		ship_armor_add = 205 
-		ship_weapon_damage = 0.85 
+		ship_hitpoints_add = 5000
+		ship_armor_add = 205
+		ship_weapon_damage = 0.85
 		ship_fire_rate_mult = 0.6
-		ship_tracking_add = 21 
+		ship_tracking_add = 21
 		ship_shield_hp_mult = 0.1
-		ship_weapon_range_mult = 0.4		
+		ship_weapon_range_mult = 0.4
 	}
-	
+
 	modifier = {
-		spaceport_ship_build_speed_mult = 1.2 
+		spaceport_ship_build_speed_mult = 1.2
 		#navy_size_add = 5
 	}
 
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_8 = {
@@ -233,32 +169,23 @@ spaceport_upgrade_8 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 8
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 6000 #+500
 		ship_armor_add = 210 #+5
 		ship_weapon_damage = 0.75
 		ship_fire_rate_mult = 0.4
-		ship_tracking_add = 22 
+		ship_tracking_add = 22
 		ship_shield_hp_mult = 0.125
-		ship_weapon_range_mult = 0.6			
+		ship_weapon_range_mult = 0.6
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 0.95
 		#navy_size_add = 5
 	}
 
-	
-	ai_weight = {
-		weight = 0
-	}
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_9 = {
@@ -267,13 +194,7 @@ spaceport_upgrade_9 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 9
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 6500 #+500
 		ship_armor_add = 220 #+5
@@ -281,17 +202,15 @@ spaceport_upgrade_9 = {
 		ship_fire_rate_mult = 0.8
 		ship_tracking_add = 23 #+1
 		ship_shield_hp_mult = 0.15
-		ship_weapon_range_mult = 0.7			
+		ship_weapon_range_mult = 0.7
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 1.15
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_10 = {
@@ -300,13 +219,7 @@ spaceport_upgrade_10 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 10
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 7000 #+500
 		ship_armor_add = 225 #+5
@@ -314,17 +227,15 @@ spaceport_upgrade_10 = {
 		ship_fire_rate_mult = 0.9
 		ship_tracking_add = 24 #+1
 		ship_shield_hp_mult = 0.135
-		ship_weapon_range_mult = 0.8			
+		ship_weapon_range_mult = 0.8
 	}
-	
+
 	modifier = {
-		spaceport_ship_build_speed_mult = 1.35 
+		spaceport_ship_build_speed_mult = 1.35
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_11 = {
@@ -333,13 +244,7 @@ spaceport_upgrade_11 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 11
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 8000
 		ship_armor_add = 230 #+5
@@ -347,17 +252,15 @@ spaceport_upgrade_11 = {
 		ship_fire_rate_mult = 1
 		ship_tracking_add = 25 #+1
 		ship_shield_hp_mult = 0.2
-		ship_weapon_range_mult = 0.9			
+		ship_weapon_range_mult = 0.9
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 1.55
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_12 = {
@@ -366,13 +269,7 @@ spaceport_upgrade_12 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 12
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 9000
 		ship_armor_add = 235 #+5
@@ -380,17 +277,15 @@ spaceport_upgrade_12 = {
 		ship_fire_rate_mult = 1.1
 		ship_tracking_add = 26 #+1
 		ship_shield_hp_mult = 0.225
-		ship_weapon_range_mult = 1		
+		ship_weapon_range_mult = 1
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 1.75
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_13 = {
@@ -399,13 +294,7 @@ spaceport_upgrade_13 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 13
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 10000
 		ship_armor_add = 240 #+5
@@ -413,17 +302,15 @@ spaceport_upgrade_13 = {
 		ship_fire_rate_mult = 1.2
 		ship_tracking_add = 27 #+1
 		ship_shield_hp_mult = 0.25
-		ship_weapon_range_mult = 1.1			
+		ship_weapon_range_mult = 1.1
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 spaceport_upgrade_14 = {
 	icon = "GFX_spaceport_upgrade_14"
@@ -431,13 +318,7 @@ spaceport_upgrade_14 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 14
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 10500
 		ship_armor_add = 245 #+5
@@ -445,17 +326,15 @@ spaceport_upgrade_14 = {
 		ship_fire_rate_mult = 1.3
 		ship_tracking_add = 28 #+1
 		ship_shield_hp_mult = 0.275
-		ship_weapon_range_mult = 1.2			
+		ship_weapon_range_mult = 1.2
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_15 = {
@@ -464,13 +343,7 @@ spaceport_upgrade_15 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 15
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 11000
 		ship_armor_add = 250 #+5
@@ -478,17 +351,15 @@ spaceport_upgrade_15 = {
 		ship_fire_rate_mult = 1.4
 		ship_tracking_add = 29 #+1
 		ship_shield_hp_mult = 0.3
-		ship_weapon_range_mult = 1.3			
+		ship_weapon_range_mult = 1.3
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_16 = {
@@ -497,13 +368,7 @@ spaceport_upgrade_16 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 16
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 11500
 		ship_armor_add = 255 #+5
@@ -511,17 +376,15 @@ spaceport_upgrade_16 = {
 		ship_fire_rate_mult = 1.5
 		ship_tracking_add = 30 #+1
 		ship_shield_hp_mult = 0.325
-		ship_weapon_range_mult = 1.4			
+		ship_weapon_range_mult = 1.4
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_17 = {
@@ -530,13 +393,7 @@ spaceport_upgrade_17 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 17
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 12000
 		ship_armor_add = 260 #+5
@@ -544,17 +401,15 @@ spaceport_upgrade_17 = {
 		ship_fire_rate_mult = 1.6
 		ship_tracking_add = 31 #+1
 		ship_shield_hp_mult = 0.35
-		ship_weapon_range_mult = 1.5			
+		ship_weapon_range_mult = 1.5
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_18 = {
@@ -563,13 +418,7 @@ spaceport_upgrade_18 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 18
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 12500
 		ship_armor_add = 265 #+5
@@ -577,17 +426,15 @@ spaceport_upgrade_18 = {
 		ship_fire_rate_mult = 1.75
 		ship_tracking_add = 32 #+1
 		ship_shield_hp_mult = 0.4
-		ship_weapon_range_mult = 1.75			
+		ship_weapon_range_mult = 1.75
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2 #+1
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
 
 spaceport_upgrade_19 = {
@@ -596,13 +443,7 @@ spaceport_upgrade_19 = {
 	prerequisites = { "tech_lock_port_mods" }
 	spaceport_level = 19
 	replaceable = no
-	construction_days = 0
-	#hidden = yes
-	
-	cost = {
-		influence = 0
-	}
-	
+
 	station_modifier = {
 		ship_hitpoints_add = 17500
 		ship_armor_add = 270 #+5
@@ -610,15 +451,13 @@ spaceport_upgrade_19 = {
 		ship_fire_rate_mult = 2
 		ship_tracking_add = 33 #+1
 		ship_shield_hp_mult = 0.5
-		ship_weapon_range_mult = 2			
+		ship_weapon_range_mult = 2
 	}
-	
+
 	modifier = {
 		spaceport_ship_build_speed_mult = 2
 		#navy_size_add = 5
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
+
+	ai_weight = { weight = 0 }
 }
