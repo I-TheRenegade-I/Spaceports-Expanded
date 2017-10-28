@@ -1,4 +1,10 @@
-﻿l_german:
+﻿#l_braz_por:
+#l_english:
+#l_french:
+l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
 
 ##############################################/
 # Renegade's Spaceports Expanded ############/
@@ -13,245 +19,244 @@
 #Translator: SonOfTheStars(SotS) 2017/10/11
 
 
- #Shield Module Tech
-    tech_rse_shields_1:0 "Raumhafen Schildmodul Mk.I"
-    tech_rse_shields_1_desc:0 "Schilde gibts auf Schiffen...und jetzt auch auf Raumhäfen!"
-    
-    tech_rse_shields_2:0 "Schildmodul Mk.II Upgrade"
-    tech_rse_shields_2_desc:0 "Installiert zusätzlich Schilkondensatoren und Notfallbooster um die Schildleistung des Raumhafens weiter zu steigern."
-    
-    tech_rse_shields_3:0 "Schildmodul Mk.III Upgrade"
-    tech_rse_shields_3_desc:0 "Weitere Generatoren ermöglichen das Schichtenweise anlegen von Schilden, was den Raumhafen zur undurchdringlichen festung macht."
- 
- 
- #Hull Module Tech
-    tech_reinforced_hull_1:0 "Verstärkte Spundwände"
-    tech_reinforced_hull_1_desc:0 "Stark verstärkte Spundwände und Schotten sorgen für mehr Stabilität im Raumhafeninneren."
- 
-    tech_reinforced_hull_2:0 "Neutroniumbeschichtung"
-    tech_reinforced_hull_2_desc:0 "Das beschichten der Außenhülle des Raumhafens mit Neutronium sorgt foür stark minimierte Durchschlagswahrscheinlichkeit und erleichtert somit Reparaturen."
+#Shield Module Tech
+tech_rse_shields_1: "Raumhafen Schildmodul Mk.I"
+tech_rse_shields_1_desc: "Schilde gibts auf Schiffen...und jetzt auch auf Raumhäfen!"
 
-    tech_reinforced_hull_3:0 "Organometallisches Endoskelett"
-    tech_reinforced_hull_3_desc:0 "Tragende Komponenten aus lebendem Metall zu fertigen ermöglicht es dem Raumhafen sich von selbst in Stand zu setzen."
+tech_rse_shields_2: "Schildmodul Mk.II Upgrade"
+tech_rse_shields_2_desc: "Installiert zusätzlich Schilkondensatoren und Notfallbooster um die Schildleistung des Raumhafens weiter zu steigern."
+
+tech_rse_shields_3: "Schildmodul Mk.III Upgrade"
+tech_rse_shields_3_desc: "Weitere Generatoren ermöglichen das Schichtenweise anlegen von Schilden, was den Raumhafen zur undurchdringlichen festung macht."
 
 
- #Armor Module Tech
-    tech_rse_module_armor_1:0 "Automatische Abriegelung"
-    tech_rse_module_armor_1_desc:0 "Automatisch abriegelnde Schotten, Bunkertüren und Fensterschützer sorgen für weniger verwundbare Fläche am Raumhafen."
-    
-    tech_rse_module_armor_2:0 "Neutronium Panzerverstärkung"
-    tech_rse_module_armor_2_desc:0 "Legierungen aus Neutronium sind dichter und leichter, und führen so zu einer besseren Panzerungsleistung."
-    
-    tech_rse_module_armor_3:0 "Ablative Panzerungssysteme"
-    tech_rse_module_armor_3_desc:0 "Installiert generatoren und Systeme für reaktive Panzerung auf dem raumhafen, was die Panzerungsleistung auf das Maximum steigert."
+#Hull Module Tech
+tech_reinforced_hull_1: "Verstärkte Spundwände"
+tech_reinforced_hull_1_desc: "Stark verstärkte Spundwände und Schotten sorgen für mehr Stabilität im Raumhafeninneren."
+
+tech_reinforced_hull_2: "Neutroniumbeschichtung"
+tech_reinforced_hull_2_desc: "Das beschichten der Außenhülle des Raumhafens mit Neutronium sorgt foür stark minimierte Durchschlagswahrscheinlichkeit und erleichtert somit Reparaturen."
+
+tech_reinforced_hull_3: "Organometallisches Endoskelett"
+tech_reinforced_hull_3_desc: "Tragende Komponenten aus lebendem Metall zu fertigen ermöglicht es dem Raumhafen sich von selbst in Stand zu setzen."
 
 
- #Weapon Module Tech
-    tech_synchronized_defences_2:0 "Semiautonome Defensivmatrix"
-    tech_synchronized_defences_2_desc:0 "Assistenzsysteme sollten der Besatzung des Raumhafens im Kampf helfen um effektiver zu Handeln."
+#Armor Module Tech
+tech_rse_module_armor_1: "Automatische Abriegelung"
+tech_rse_module_armor_1_desc: "Automatisch abriegelnde Schotten, Bunkertüren und Fensterschützer sorgen für weniger verwundbare Fläche am Raumhafen."
 
-    tech_synchronized_defences_3:0 "Autonome Defensivmatrix"
-    tech_synchronized_defences_3_desc:0 "Zielerfassung und Waffenauswahl können wir an einen Computer übergeben. Trotzdem, jemand muss den roten Knopf drücken..."
+tech_rse_module_armor_2: "Neutronium Panzerverstärkung"
+tech_rse_module_armor_2_desc: "Legierungen aus Neutronium sind dichter und leichter, und führen so zu einer besseren Panzerungsleistung."
 
-    tech_synchronized_defences_4:0 "KI-Defensivmatrix"
-    tech_synchronized_defences_4_desc:0 "Wir vertauen einer spezialisierten KI die Verteidigung unserer Raumhäfen an. Wer drückt schon gerne den roten Knopf...!"
+tech_rse_module_armor_3: "Ablative Panzerungssysteme"
+tech_rse_module_armor_3_desc: "Installiert generatoren und Systeme für reaktive Panzerung auf dem raumhafen, was die Panzerungsleistung auf das Maximum steigert."
 
-    tech_rse_spaceport_lasers_1:0 "Gamma Emitterspulen"
-    tech_rse_spaceport_lasers_1_desc:0 "Bessere und größere Emitterspulen für Gamma Laser erlauben das anbringen mittelgroßer Emitter am Raumhafen."
-    
-    tech_rse_spaceport_lasers_2:0 "Zusätzliche Kühlaggregate"
-    tech_rse_spaceport_lasers_2_desc:0 "Zusätzliche Kühlaggregate erlauben das installieren großer Emitter für Gamma Laser auf dem Raumhafen."
-    
-    tech_rse_spaceport_lasers_3:0 "Tachyon Beschleuniger"
-    tech_rse_spaceport_lasers_3_desc:0 "Massive Tachyonbeschleuniger and Bord des Raumhafens sollten genug Leistung erzeugen können um gleich mehrere spinale Tachyonlanzen zu unterstützen. Macht den Raumhafen zum Todesstern!"
-    
-    tech_rse_spaceport_mass_drivers_1:0 "Erweitertes Magazin"
-    tech_rse_spaceport_mass_drivers_1_desc:0 "Größere und besser automatisierte Magazine sollten es erlauben auch mittlere Gaußlafetten zu installieren."
-    
-    tech_rse_spaceport_mass_drivers_2:0 "Zusätzliche Generatoren"
-    tech_rse_spaceport_mass_drivers_2_desc:0 "Zusätzliche Generatoren sollten für ausreichend Energie sorgen um auch große Gaußlafetten zu betreiben."
-    
-    tech_rse_spaceport_mass_drivers_3:0 "Kondensatorbänke"
-    tech_rse_spaceport_mass_drivers_3_desc:0 "Eigens konzipierte Kondansatorbänke im Inneren des Raumhafens sollten genug ad-hoc Spannung liefern können um auch die Gigakanonen Technologie nutzbar zu machen. Lasst sie uns in Stücke schießen!"
-    
-    tech_rse_spaceport_missiles_1:0 "Abgeschirmtes Magazin"
-    tech_rse_spaceport_missiles_1_desc:0 "Ein abgeschirmtes Magazin für Nuklearsprengköpfe sollte es ermöglichen größere Raketenbestände sicher zu lagern und die Nutzung mittelgroßer Raketenplattformen erlauben."
-    
-    tech_rse_spaceport_missiles_2:0 "Große Silos"
-    tech_rse_spaceport_missiles_2_desc:0 "Gewaltige Raketensilos in der Hülle des Raumhafens würden auch den Abschuss großer Raketen erlauben."
-    
-    tech_rse_spaceport_missiles_3:0 "Torpedorohre"
-    tech_rse_spaceport_missiles_3_desc:0 "Das Installieren von Torpedorohren im Raumhafen ist längst überfällig und sollte das abfeuern von Zerstörertorpedos erlauben. Hoffentlich gibts keine Rohrkrepierer..."
-    
-    tech_rse_spaceport_arc_emitter:0 "Hochspannungs Transformatoren"
-    tech_rse_spaceport_arc_emitter_desc:0 "Mithilfe gewaltiger Transformatoren sollten wir in der lage sein den Raumhafen sogar mit vernichtender Lichtbogenemitter Technik auszustatten. Besser als Thors Hammer..."
-    
-    tech_rse_spaceport_energy_torpedoes:0 "Neutronen Behältnisse"
-    tech_rse_spaceport_energy_torpedoes_desc:0 "Auch ein Raumhafen sollte Energietorpedos feuern dürfen. Lasst sie Neutronen schmecken!"
-   
-    tech_rse_hangar_1:0 "Hangarbereich Jäger"
-    tech_rse_hangar_1_desc:0 "Wir sollten einige der kommerziell genutzten Hangars auf unseren Raumhäfen in ein Hangar für Jagdgeschwader umwandeln, um uns gegen feindliche Geschwader zu wappnen!"
-    
-    tech_rse_hangar_2:0 "Hangarbereich Bomber"
-    tech_rse_hangar_2_desc:0 "Wir sollten einige der kommerziell genutzten Hangars auf unseren Raumhäfen in ein Hangar für Bombergeschwader umwandeln, um aktiv gegen Feindschiffe vorgehen zu können!"
-    
-    
- #Energy Module Tech
-    tech_solar_panel_network_2:0 "Große Solarzellen"
-    tech_solar_panel_network_2_desc:0 "Wir sollten die bestehenden Solarsysteme für Raumhäfen noch weiter ausbauen können...."
- 
-    tech_solar_panel_network_3:0 "Mehrlagige Solarzellen"
-    tech_solar_panel_network_3_desc:0 "Mehrlagige Solarzellen greifen möglichst viele Lichtspektren ab und sollten so die Effizienz unserer Raumhafen Solarmodule erhöhen."
- 
-    tech_solar_panel_network_4:0 "Tesla Leitungen"
-    tech_solar_panel_network_4_desc:0 "Supraleitende Tesla-Leitungen zwischen den Solarmodulen sollten für nahezu verlustfreie Energieausbeute sorgen."
-    
-    tech_solar_panel_network_5:0 "Alternativer Energietransfer"
-    tech_solar_panel_network_5_desc:0 "Uneingeschränkte Nutzung von Solarenergie ist schön und gut, nur wie kriegen wie die Energie effizient auf den Planeten zurück? Lasertransmitter könnten Abhilfe schaffen...."
-    
-    tech_solar_panel_network_6:0 "Stationärer Antimateriereaktor"
-    tech_solar_panel_network_6_desc:0 "Unsere Raumhäfen werden immer energiehungriger, wir sollten über verbesserte Reaktoren nachdenken."
-    
-    tech_solar_panel_network_7:0 "Stationärer Nullpunktreaktor"
-    tech_solar_panel_network_7_desc:0 "Der Energieverbrauch unserer Raumhäfen steigt bald ins unermessliche...wir muss auch hier auf die kürzlich entdecken Null-Punkt-Reaktoren zurückgreifen!"
 
-    
- #Mineral Module Tech
-    tech_material_factory_1:0 "Nanitenfabrikation"
-    tech_material_factory_1_desc:0 "Naniten könnten unter hohem Energieaufwand Moleküle so arragieren das aus ihnen brauchbare Materialien werden."
- 
-    tech_material_factory_2:0 "Asteroidenfänger"
-    tech_material_factory_2_desc:0 "Modernste Traktorstrahlen sollten in der Lage sein mineralienreiche Asteroiden im Vorbeiflug zu fangen und für den Materialabbau nutzbar zu machen."
- 
-    tech_material_factory_3:0 "Mondbergbau"
-    tech_material_factory_3_desc:0 "Warum graben wir nicht auch auf den nahen Monden nach wertvollen Ressourcen?"
-    
-    tech_material_factory_4:0 "Energie zu Materie"
-    tech_material_factory_4_desc:0 "Unter extremem Energieaufwand liese sich theoretisch Materie reformieren und zu brauchbaren Materialien direkt umwandeln."
-    
-    tech_material_factory_5:0 "Bergbaugilde"
-    tech_material_factory_5_desc:0 "Ein exclusiver Ort nur für Bergleute sollte ihre Moral steigern und ihnen den Austausch über die neusten Vorkommen und Technologien erlauben."
+#Weapon Module Tech
+tech_synchronized_defences_2: "Semiautonome Defensivmatrix"
+tech_synchronized_defences_2_desc: "Assistenzsysteme sollten der Besatzung des Raumhafens im Kampf helfen um effektiver zu Handeln."
 
-    
- #Food Module Tech
-    tech_orbital_hydroponics_2:0 "Stapelnde Landwirtschaft"
-    tech_orbital_hydroponics_2_desc:0 "Vertikale landwirtschaft wurde den im All ohnehin schon knappen Platz weitaus besser nutzen als herkömmliche Hydrokulturen."
- 
-    tech_orbital_hydroponics_3:0 "Soylent Green Manufaktur"
-    tech_orbital_hydroponics_3_desc:0 "Das beste aus 100% energiereichem Plankton...und...vielleicht ein paar...Leuten..."
- 
-    tech_orbital_hydroponics_4:0 "Food Replication Technology"
-    tech_orbital_hydroponics_4_desc:0 "Unter extremem Energieaufwand liese sich theoretisch Materie reformieren und würde es erluaben Nahrungsmittel zu replizieren."
+tech_synchronized_defences_3: "Autonome Defensivmatrix"
+tech_synchronized_defences_3_desc: "Zielerfassung und Waffenauswahl können wir an einen Computer übergeben. Trotzdem, jemand muss den roten Knopf drücken..."
 
-    
- #Ship Assembly Module Tech
-    tech_doctrine_manufacturing_standards_1:0 "Automatisierte Orbitalwerft"
-    tech_doctrine_manufacturing_standards_1_desc:0 "Robotische Arbeitskräfte, automatisierte Werkstätten und Fließbandproduktion sorgen für schnelleren und kostengünstigeren Schiffsbau."
-    
-    tech_doctrine_manufacturing_standards_2:0 "Vorgefertigte Komponenten"
-    tech_doctrine_manufacturing_standards_2_desc:0 "Vorgefertigte, standardisierte Komponenten und Hüllenteile erhöhen die Baugeschwindigkeit von Orbitalwerften weiter."
-    
-    tech_doctrine_manufacturing_standards_3:0 "KI-gesteuerte Fertigung"
-    tech_doctrine_manufacturing_standards_3_desc:0 "Eine KI wird mit der Montage der Schiffsrümpfe beauftragt, um so noch mehr aus den Werften heraus zu holen."
+tech_synchronized_defences_4: "KI-Defensivmatrix"
+tech_synchronized_defences_4_desc: "Wir vertauen einer spezialisierten KI die Verteidigung unserer Raumhäfen an. Wer drückt schon gerne den roten Knopf...!"
 
- 
- #TECH - Media and Propaganda Modules
-    tech_media_1:0 "Massenmedium Radio"
-    tech_media_1_desc:0 "Durch das einrichten orbitaler Radiosender ließe sich Planetenweit Radio ausstrahlen."
- 
-    tech_media_2:0 "Massenmedium Fernsehn"
-    tech_media_2_desc:0 "Durch das einrichten orbitaler Fernsehsender ließe sich Planetenweit Fernsehn ausstrahlen."
-    
-    tech_media_psionic:0 "Telepatische Stimmungsregler"
-    tech_media_psionic_desc:0 "Orbitale Psi-Transmitter könnten es ermöglichen die Gedanken unserer Bürger psionisch zu steuern"
-    
-    
-    
- #Observation and Listening Post Tech
-    tech_orbital_sensor_array_2:0 "Orbitales Observatorium"
-    tech_orbital_sensor_array_2_desc:0 "Ohne den Einfluss der Atmosphäre auf unsere Teleskope können wir uneingeschränkt in den Raum blicken."
-    
-    tech_orbital_sensor_array_3:0 "Orbitaler Supercomputer"
-    tech_orbital_sensor_array_3_desc:0 "Orbitale Supercomputer sind in der Lage planetare Labore besser zu verbinden und können Flottenbewegungen besser Voraussagen."
-    
-    tech_listening_post_1:0 "Laser Antennen"
-    tech_listening_post_1_desc:0 "Laserantennen sorgen for schnelleren Datentransfer und können Schiffe auf größere Entfernung anpeilen."
- 
-    tech_listening_post_2:0 "Phasenlaser Antennen"
-    tech_listening_post_2_desc:0 "Phasenverschobene Laser können mehr Daten gleichzeitig versenden und dringen tiefer in den Raum vor."
- 
- 
- #Army Module Tech
-    tech_rse_army_1:0 "Besatzungs Trainingslager"
-    tech_rse_army_1_desc:0 "Hightech Kampfschiffe benötigen Besatzungen mit bester Ausbildung und top Kondition, für mehr Effizienz im Kampf."
-    
-    tech_rse_army_2:0 "Offiziersakademie"
-    tech_rse_army_2_desc:0 "Besser ausgebildete Offiziere können größere Flotten handhaben und sind situationsbewusster als zuvor."
-    
-    tech_rse_army_3:0 "Stationäre Sicherheitstrupps"
-    tech_rse_army_3_desc:0 "Maximale Alarmbereitschaft druch eigens stationierte Elite Sicherheitskräfte, AUF GEFECHTSSTATION!"
-    
-    tech_rse_army_4:0 "Orbitales Rekrutierungsbüro"
-    tech_rse_army_4_desc:0 "Dank orbital stationierter Rekrutierungsbeauftragter kommt auch der faulste Bürger nicht am Militärdienst vorbei!"
+tech_rse_spaceport_lasers_1: "Gamma Emitterspulen"
+tech_rse_spaceport_lasers_1_desc: "Bessere und größere Emitterspulen für Gamma Laser erlauben das anbringen mittelgroßer Emitter am Raumhafen."
 
- 
- #Science Module Tech
-    tech_rse_pop_growth:0 "Gen-Splicing Labor"
-    tech_rse_pop_growth_desc:0 "Gentherapien erhöhen die Wachstumsrate aller Bewohner."
-    
-    tech_rse_pop_growth_2:0 "Roboterfabrik"
-    tech_rse_pop_growth_2_desc:0 "Roboter, im Orbit gebaut, schnellstmöglich einsetzbar."
-    
-    tech_spaceport_researchers:0 "Orbitale Forschunglabore"
-    tech_spaceport_researchers_desc:0 "Eigens eingerichtete Labore für Null-G Forschung auf dem Raumhafen bringen Forschung im"
-  
- #Strategic Resource Module Tech
-    tech_rse_strategic_resource_1:0 "Dunkle Materie Generator"
-    tech_rse_strategic_resource_1_desc:0 "Physikalische Durchbrüche erlauben die Erstellung und Handhabung eines Miniatur schwarzen Lochs und die Extraktion von dunkler Materie aus diesem"
-    
-    tech_rse_strategic_resource_2:0 "Garanthium Schmelze"
-    tech_rse_strategic_resource_2_desc:0 "Durch einfangen passierender Asteroiden können wir nahezu unendliche Mengen Garanthium sammeln und verarbeiten"
-    
-    tech_rse_strategic_resource_3:0 "Organometall Fabrikation"
-    tech_rse_strategic_resource_3_desc:0 "Durch eine Reihe komplexer Prozesse ist es möglich ein nahezu perfektes Immitat lebenden Metalls herzustellen"
-    
-    tech_rse_strategic_resource_4:0 "Lythurgas Synthetsierer"
-    tech_rse_strategic_resource_4_desc:0 "§LDurch das komprimieren verschiedener Edelgase und Sauerstoff lässt sich nahezu authentisches Lythurgas synthetisieren"
-    
-    tech_rse_strategic_resource_5:0 "Neutronium Abbaubasis"
-    tech_rse_strategic_resource_5_desc:0 "Theoretisch haben alle Sterne mehr oder weniger brauchbare Mengen Neutronium in ihrem Inneren. Es ist zwar gefählich aber wir können es definitiv aus ihnen gewinnen."
-    
-    tech_rse_strategic_resource_6:0 "Orillium Schmelze"
-    tech_rse_strategic_resource_6_desc:0 "Duch das Legieren verschiedener exotischer Metalle haben unsere Wissenschaftler einen Weg gefunden künstliches Orillium herzustellen"
-    
-    tech_rse_strategic_resource_7:0 "Teldarkristall Abscheider"
-    tech_rse_strategic_resource_7_desc:0 "Wissenschaftler haben entdeckt, dass der Abfall aus den Betharian-Kraftwerken mit Hilfe komplexer Verfahren zu einem nahezu perfekten Teldarkristall Supplement verarbeitet werden kann"
-    
-    tech_rse_strategic_resource_8:0 "Yurantkristall Labor"
-    tech_rse_strategic_resource_8_desc:0 "Ursprünglich wuchsen diese Kristalle an einem hochradioaktiven Leck im Reaktorkern des Raumhafens, jetzt gedeihen sie noch besser in einer kontrollierten Laborumgebung"
-    
-    tech_rse_strategic_resource_9:0 "Kunst-Zro Destille"
-    tech_rse_strategic_resource_9_desc:0 "Nachdem das Verbot dieser bewusstseinserwiternden Substanz aufgehoben wurde, da sie bei einigen Individuen das psionische Potenzial fördert, synthetisieren wir jetzt künstliches Zro und verteilen kontrollierte Dosen an unsere besten Offiziere"
-    
-    tech_rse_strategic_resource_10:0 "Engos Raffinerie"
-    tech_rse_strategic_resource_10_desc:0 "Aus den Tiefen von Gasgiganten heraufgepumptes, rohes Engos wird hier in Massenproduktion zu seiner brauchbaren Form raffiniert"
-    
-    tech_rse_strategic_resource_11:0 "Pitharanstaub Düngerfabrik"
-    tech_rse_strategic_resource_11_desc:0 "Laut neuester Studien tritt Pitharanstaub sehr häufig auf und lässt sich am besten direkt orbital zu hochpotentem Dünger veraabeiten"
-    
- 
- #Repeatable Tech Tech
- 
-    tech_repeatable_orbital_station_health:0 "Manufakturstandards"
-    tech_repeatable_orbital_station_health_desc:0 "Verbesserte Standards und Kontrollen erlauben Einheitlichkeit beim Bau von Raumhäfen, was die Qualität massiv steigert."
- 
-    tech_repeatable_orbital_station_damage:0 "Magazinerweiterung"
-    tech_repeatable_orbital_station_damage_desc:0 "Magazinerweiterungen und Generatorminiaturisierung erlauben den Waffensystemen einen erhöhten Schadensausstoß."
-    
-    
-  #Non-Repeatable Misc Techs
-  
-    tech_spaceport_researchers:0 "Spaceport Research Team"
-    tech_spaceport_researchers_desc:0 "A dedicated group of researchers specifically dedicated to researching out new and improved spaceport modules. Through collaboration and resource sharing this team has help increase your overall research speeds and added research alternatives."
-    
-    
+tech_rse_spaceport_lasers_2: "Zusätzliche Kühlaggregate"
+tech_rse_spaceport_lasers_2_desc: "Zusätzliche Kühlaggregate erlauben das installieren großer Emitter für Gamma Laser auf dem Raumhafen."
+
+tech_rse_spaceport_lasers_3: "Tachyon Beschleuniger"
+tech_rse_spaceport_lasers_3_desc: "Massive Tachyonbeschleuniger and Bord des Raumhafens sollten genug Leistung erzeugen können um gleich mehrere spinale Tachyonlanzen zu unterstützen. Macht den Raumhafen zum Todesstern!"
+
+tech_rse_spaceport_mass_drivers_1: "Erweitertes Magazin"
+tech_rse_spaceport_mass_drivers_1_desc: "Größere und besser automatisierte Magazine sollten es erlauben auch mittlere Gaußlafetten zu installieren."
+
+tech_rse_spaceport_mass_drivers_2: "Zusätzliche Generatoren"
+tech_rse_spaceport_mass_drivers_2_desc: "Zusätzliche Generatoren sollten für ausreichend Energie sorgen um auch große Gaußlafetten zu betreiben."
+
+tech_rse_spaceport_mass_drivers_3: "Kondensatorbänke"
+tech_rse_spaceport_mass_drivers_3_desc: "Eigens konzipierte Kondansatorbänke im Inneren des Raumhafens sollten genug ad-hoc Spannung liefern können um auch die Gigakanonen Technologie nutzbar zu machen. Lasst sie uns in Stücke schießen!"
+
+tech_rse_spaceport_missiles_1: "Abgeschirmtes Magazin"
+tech_rse_spaceport_missiles_1_desc: "Ein abgeschirmtes Magazin für Nuklearsprengköpfe sollte es ermöglichen größere Raketenbestände sicher zu lagern und die Nutzung mittelgroßer Raketenplattformen erlauben."
+
+tech_rse_spaceport_missiles_2: "Große Silos"
+tech_rse_spaceport_missiles_2_desc: "Gewaltige Raketensilos in der Hülle des Raumhafens würden auch den Abschuss großer Raketen erlauben."
+
+tech_rse_spaceport_missiles_3: "Torpedorohre"
+tech_rse_spaceport_missiles_3_desc: "Das Installieren von Torpedorohren im Raumhafen ist längst überfällig und sollte das abfeuern von Zerstörertorpedos erlauben. Hoffentlich gibts keine Rohrkrepierer..."
+
+tech_rse_spaceport_arc_emitter: "Hochspannungs Transformatoren"
+tech_rse_spaceport_arc_emitter_desc: "Mithilfe gewaltiger Transformatoren sollten wir in der lage sein den Raumhafen sogar mit vernichtender Lichtbogenemitter Technik auszustatten. Besser als Thors Hammer..."
+
+tech_rse_spaceport_energy_torpedoes: "Neutronen Behältnisse"
+tech_rse_spaceport_energy_torpedoes_desc: "Auch ein Raumhafen sollte Energietorpedos feuern dürfen. Lasst sie Neutronen schmecken!"
+
+tech_rse_hangar_1: "Hangarbereich Jäger"
+tech_rse_hangar_1_desc: "Wir sollten einige der kommerziell genutzten Hangars auf unseren Raumhäfen in ein Hangar für Jagdgeschwader umwandeln, um uns gegen feindliche Geschwader zu wappnen!"
+
+tech_rse_hangar_2: "Hangarbereich Bomber"
+tech_rse_hangar_2_desc: "Wir sollten einige der kommerziell genutzten Hangars auf unseren Raumhäfen in ein Hangar für Bombergeschwader umwandeln, um aktiv gegen Feindschiffe vorgehen zu können!"
+
+
+#Energy Module Tech
+tech_solar_panel_network_2: "Große Solarzellen"
+tech_solar_panel_network_2_desc: "Wir sollten die bestehenden Solarsysteme für Raumhäfen noch weiter ausbauen können...."
+
+tech_solar_panel_network_3: "Mehrlagige Solarzellen"
+tech_solar_panel_network_3_desc: "Mehrlagige Solarzellen greifen möglichst viele Lichtspektren ab und sollten so die Effizienz unserer Raumhafen Solarmodule erhöhen."
+
+tech_solar_panel_network_4: "Tesla Leitungen"
+tech_solar_panel_network_4_desc: "Supraleitende Tesla-Leitungen zwischen den Solarmodulen sollten für nahezu verlustfreie Energieausbeute sorgen."
+
+tech_solar_panel_network_5: "Alternativer Energietransfer"
+tech_solar_panel_network_5_desc: "Uneingeschränkte Nutzung von Solarenergie ist schön und gut, nur wie kriegen wie die Energie effizient auf den Planeten zurück? Lasertransmitter könnten Abhilfe schaffen...."
+
+tech_solar_panel_network_6: "Stationärer Antimateriereaktor"
+tech_solar_panel_network_6_desc: "Unsere Raumhäfen werden immer energiehungriger, wir sollten über verbesserte Reaktoren nachdenken."
+
+tech_solar_panel_network_7: "Stationärer Nullpunktreaktor"
+tech_solar_panel_network_7_desc: "Der Energieverbrauch unserer Raumhäfen steigt bald ins unermessliche...wir muss auch hier auf die kürzlich entdecken Null-Punkt-Reaktoren zurückgreifen!"
+
+
+#Mineral Module Tech
+tech_material_factory_1: "Nanitenfabrikation"
+tech_material_factory_1_desc: "Naniten könnten unter hohem Energieaufwand Moleküle so arragieren das aus ihnen brauchbare Materialien werden."
+
+tech_material_factory_2: "Asteroidenfänger"
+tech_material_factory_2_desc: "Modernste Traktorstrahlen sollten in der Lage sein mineralienreiche Asteroiden im Vorbeiflug zu fangen und für den Materialabbau nutzbar zu machen."
+
+tech_material_factory_3: "Mondbergbau"
+tech_material_factory_3_desc: "Warum graben wir nicht auch auf den nahen Monden nach wertvollen Ressourcen?"
+
+tech_material_factory_4: "Energie zu Materie"
+tech_material_factory_4_desc: "Unter extremem Energieaufwand liese sich theoretisch Materie reformieren und zu brauchbaren Materialien direkt umwandeln."
+
+tech_material_factory_5: "Bergbaugilde"
+tech_material_factory_5_desc: "Ein exclusiver Ort nur für Bergleute sollte ihre Moral steigern und ihnen den Austausch über die neusten Vorkommen und Technologien erlauben."
+
+
+#Food Module Tech
+tech_orbital_hydroponics_2: "Stapelnde Landwirtschaft"
+tech_orbital_hydroponics_2_desc: "Vertikale landwirtschaft wurde den im All ohnehin schon knappen Platz weitaus besser nutzen als herkömmliche Hydrokulturen."
+
+tech_orbital_hydroponics_3: "Soylent Green Manufaktur"
+tech_orbital_hydroponics_3_desc: "Das beste aus 100% energiereichem Plankton...und...vielleicht ein paar...Leuten..."
+
+tech_orbital_hydroponics_4: "Food Replication Technology"
+tech_orbital_hydroponics_4_desc: "Unter extremem Energieaufwand liese sich theoretisch Materie reformieren und würde es erluaben Nahrungsmittel zu replizieren."
+
+
+#Ship Assembly Module Tech
+tech_doctrine_manufacturing_standards_1: "Automatisierte Orbitalwerft"
+tech_doctrine_manufacturing_standards_1_desc: "Robotische Arbeitskräfte, automatisierte Werkstätten und Fließbandproduktion sorgen für schnelleren und kostengünstigeren Schiffsbau."
+
+tech_doctrine_manufacturing_standards_2: "Vorgefertigte Komponenten"
+tech_doctrine_manufacturing_standards_2_desc: "Vorgefertigte, standardisierte Komponenten und Hüllenteile erhöhen die Baugeschwindigkeit von Orbitalwerften weiter."
+
+tech_doctrine_manufacturing_standards_3: "KI-gesteuerte Fertigung"
+tech_doctrine_manufacturing_standards_3_desc: "Eine KI wird mit der Montage der Schiffsrümpfe beauftragt, um so noch mehr aus den Werften heraus zu holen."
+
+
+#TECH - Media and Propaganda Modules
+tech_media_1: "Massenmedium Radio"
+tech_media_1_desc: "Durch das einrichten orbitaler Radiosender ließe sich Planetenweit Radio ausstrahlen."
+
+tech_media_2: "Massenmedium Fernsehn"
+tech_media_2_desc: "Durch das einrichten orbitaler Fernsehsender ließe sich Planetenweit Fernsehn ausstrahlen."
+
+tech_media_psionic: "Telepatische Stimmungsregler"
+tech_media_psionic_desc: "Orbitale Psi-Transmitter könnten es ermöglichen die Gedanken unserer Bürger psionisch zu steuern"
+
+
+
+#Observation and Listening Post Tech
+tech_orbital_sensor_array_2: "Orbitales Observatorium"
+tech_orbital_sensor_array_2_desc: "Ohne den Einfluss der Atmosphäre auf unsere Teleskope können wir uneingeschränkt in den Raum blicken."
+
+tech_orbital_sensor_array_3: "Orbitaler Supercomputer"
+tech_orbital_sensor_array_3_desc: "Orbitale Supercomputer sind in der Lage planetare Labore besser zu verbinden und können Flottenbewegungen besser Voraussagen."
+
+tech_listening_post_1: "Laser Antennen"
+tech_listening_post_1_desc: "Laserantennen sorgen for schnelleren Datentransfer und können Schiffe auf größere Entfernung anpeilen."
+
+tech_listening_post_2: "Phasenlaser Antennen"
+tech_listening_post_2_desc: "Phasenverschobene Laser können mehr Daten gleichzeitig versenden und dringen tiefer in den Raum vor."
+
+
+#Army Module Tech
+tech_rse_army_1: "Besatzungs Trainingslager"
+tech_rse_army_1_desc: "Hightech Kampfschiffe benötigen Besatzungen mit bester Ausbildung und top Kondition, für mehr Effizienz im Kampf."
+
+tech_rse_army_2: "Offiziersakademie"
+tech_rse_army_2_desc: "Besser ausgebildete Offiziere können größere Flotten handhaben und sind situationsbewusster als zuvor."
+
+tech_rse_army_3: "Stationäre Sicherheitstrupps"
+tech_rse_army_3_desc: "Maximale Alarmbereitschaft druch eigens stationierte Elite Sicherheitskräfte, AUF GEFECHTSSTATION!"
+
+tech_rse_army_4: "Orbitales Rekrutierungsbüro"
+tech_rse_army_4_desc: "Dank orbital stationierter Rekrutierungsbeauftragter kommt auch der faulste Bürger nicht am Militärdienst vorbei!"
+
+
+#Science Module Tech
+tech_rse_pop_growth: "Gen-Splicing Labor"
+tech_rse_pop_growth_desc: "Gentherapien erhöhen die Wachstumsrate aller Bewohner."
+
+tech_rse_pop_growth_2: "Roboterfabrik"
+tech_rse_pop_growth_2_desc: "Roboter, im Orbit gebaut, schnellstmöglich einsetzbar."
+
+tech_spaceport_researchers: "Orbitale Forschunglabore"
+tech_spaceport_researchers_desc: "Eigens eingerichtete Labore für Null-G Forschung auf dem Raumhafen bringen Forschung im"
+
+#Strategic Resource Module Tech
+tech_rse_strategic_resource_1: "Dunkle Materie Generator"
+tech_rse_strategic_resource_1_desc: "Physikalische Durchbrüche erlauben die Erstellung und Handhabung eines Miniatur schwarzen Lochs und die Extraktion von dunkler Materie aus diesem"
+
+tech_rse_strategic_resource_2: "Garanthium Schmelze"
+tech_rse_strategic_resource_2_desc: "Durch einfangen passierender Asteroiden können wir nahezu unendliche Mengen Garanthium sammeln und verarbeiten"
+
+tech_rse_strategic_resource_3: "Organometall Fabrikation"
+tech_rse_strategic_resource_3_desc: "Durch eine Reihe komplexer Prozesse ist es möglich ein nahezu perfektes Immitat lebenden Metalls herzustellen"
+
+tech_rse_strategic_resource_4: "Lythurgas Synthetsierer"
+tech_rse_strategic_resource_4_desc: "§LDurch das komprimieren verschiedener Edelgase und Sauerstoff lässt sich nahezu authentisches Lythurgas synthetisieren"
+
+tech_rse_strategic_resource_5: "Neutronium Abbaubasis"
+tech_rse_strategic_resource_5_desc: "Theoretisch haben alle Sterne mehr oder weniger brauchbare Mengen Neutronium in ihrem Inneren. Es ist zwar gefählich aber wir können es definitiv aus ihnen gewinnen."
+
+tech_rse_strategic_resource_6: "Orillium Schmelze"
+tech_rse_strategic_resource_6_desc: "Duch das Legieren verschiedener exotischer Metalle haben unsere Wissenschaftler einen Weg gefunden künstliches Orillium herzustellen"
+
+tech_rse_strategic_resource_7: "Teldarkristall Abscheider"
+tech_rse_strategic_resource_7_desc: "Wissenschaftler haben entdeckt, dass der Abfall aus den Betharian-Kraftwerken mit Hilfe komplexer Verfahren zu einem nahezu perfekten Teldarkristall Supplement verarbeitet werden kann"
+
+tech_rse_strategic_resource_8: "Yurantkristall Labor"
+tech_rse_strategic_resource_8_desc: "Ursprünglich wuchsen diese Kristalle an einem hochradioaktiven Leck im Reaktorkern des Raumhafens, jetzt gedeihen sie noch besser in einer kontrollierten Laborumgebung"
+
+tech_rse_strategic_resource_9: "Kunst-Zro Destille"
+tech_rse_strategic_resource_9_desc: "Nachdem das Verbot dieser bewusstseinserwiternden Substanz aufgehoben wurde, da sie bei einigen Individuen das psionische Potenzial fördert, synthetisieren wir jetzt künstliches Zro und verteilen kontrollierte Dosen an unsere besten Offiziere"
+
+tech_rse_strategic_resource_10: "Engos Raffinerie"
+tech_rse_strategic_resource_10_desc: "Aus den Tiefen von Gasgiganten heraufgepumptes, rohes Engos wird hier in Massenproduktion zu seiner brauchbaren Form raffiniert"
+
+tech_rse_strategic_resource_11: "Pitharanstaub Düngerfabrik"
+tech_rse_strategic_resource_11_desc: "Laut neuester Studien tritt Pitharanstaub sehr häufig auf und lässt sich am besten direkt orbital zu hochpotentem Dünger veraabeiten"
+
+
+#Repeatable Tech Tech
+
+tech_repeatable_orbital_station_health: "Manufakturstandards"
+tech_repeatable_orbital_station_health_desc: "Verbesserte Standards und Kontrollen erlauben Einheitlichkeit beim Bau von Raumhäfen, was die Qualität massiv steigert."
+
+tech_repeatable_orbital_station_damage: "Magazinerweiterung"
+tech_repeatable_orbital_station_damage_desc: "Magazinerweiterungen und Generatorminiaturisierung erlauben den Waffensystemen einen erhöhten Schadensausstoß."
+
+
+#Non-Repeatable Misc Techs
+
+tech_spaceport_researchers: "Spaceport Research Team"
+tech_spaceport_researchers_desc: "A dedicated group of researchers specifically dedicated to researching out new and improved spaceport modules. Through collaboration and resource sharing this team has help increase your overall research speeds and added research alternatives."
+

@@ -11,35 +11,35 @@
 synchronized_defenses_2 = {
 	icon = "GFX_spaceport_synchronized_defenses_2"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
-	construction_days = 360	
+	construction_days = 360
 	prerequisites = { "tech_synchronized_defences_2"  }
 	spaceport_level = 3
-	
+
 	cost = {
 		minerals = 400
 	}
-	
+
 	required_resources = {
 		energy = 2
 	}
-	
+
 	station_modifier = {
 		ship_fire_rate_mult = 0.25
 		ship_weapon_damage = 0.35
 		ship_weapon_range_mult = 0.25
 	}
-		ai_weight = { 
+		ai_weight = {
 		weight = 5 #weapons are a good thing
-		
+
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -47,7 +47,7 @@ synchronized_defenses_2 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -60,7 +60,7 @@ synchronized_defenses_2 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -68,7 +68,7 @@ synchronized_defenses_2 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -79,29 +79,29 @@ synchronized_defenses_2 = {
 synchronized_defenses_3 = {
 	icon = "GFX_spaceport_synchronized_defenses_3"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
-	construction_days = 720	
+	construction_days = 720
 	prerequisites = { "tech_synchronized_defences_3" }
 	spaceport_level = 6
-	
+
 	cost = {
 		minerals = 800
 	}
-	
+
 	required_resources = {
 		energy = 3
 	}
-	
+
 	station_modifier = {
 		ship_fire_rate_mult = 0.5
 		ship_weapon_damage = 0.55
 		ship_tracking_add = 5
 		ship_weapon_range_mult = 0.5
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 2 #weapons are a good thing
 		modifier = {
 			factor = 0.5
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = synchronized_defenses_2
 				has_spaceport_module = synchronized_defenses_4
@@ -110,13 +110,13 @@ synchronized_defenses_3 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -124,7 +124,7 @@ synchronized_defenses_3 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -137,7 +137,7 @@ synchronized_defenses_3 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -145,7 +145,7 @@ synchronized_defenses_3 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -157,29 +157,29 @@ synchronized_defenses_3 = {
 synchronized_defenses_4 = {
 	icon = "GFX_spaceport_synchronized_defenses_4"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
-	construction_days = 1440	
+	construction_days = 1440
 	prerequisites = { "tech_synchronized_defences_3" }
 	spaceport_level = 12
-	
+
 	cost = {
 		minerals = 800
 	}
-	
+
 	required_resources = {
 		energy = 5
 	}
-	
+
 	station_modifier = {
 		ship_fire_rate_mult = 1
 		ship_weapon_damage = 1
 		ship_tracking_add = 10
 		ship_weapon_range_mult = 1.25
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 2 #weapons are a good thing
 		modifier = {
 			factor = 0.5
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = synchronized_defenses_2
 				has_spaceport_module = synchronized_defenses_3
@@ -188,13 +188,13 @@ synchronized_defenses_4 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -202,7 +202,7 @@ synchronized_defenses_4 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -215,7 +215,7 @@ synchronized_defenses_4 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -223,7 +223,7 @@ synchronized_defenses_4 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -238,18 +238,18 @@ rse_module_weapon_k1 = {
 	prerequisites = { "tech_mass_drivers_2" }
 	component_set = "MASS_DRIVER_5"
 	spaceport_level = 1
-	
-	cost = { 
-		minerals = 250 
+
+	cost = {
+		minerals = 250
 	}
 	required_resources = {
 		energy = 2
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -268,13 +268,13 @@ rse_module_weapon_k1 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -282,7 +282,7 @@ rse_module_weapon_k1 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -295,7 +295,7 @@ rse_module_weapon_k1 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -303,7 +303,7 @@ rse_module_weapon_k1 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -318,18 +318,18 @@ rse_module_weapon_k2 = {
 	prerequisites = { "tech_rse_spaceport_mass_drivers_1" }
 	component_set = "MASS_DRIVER_5"
 	spaceport_level = 5
-	
+
 	cost = {
-		minerals = 500 
+		minerals = 500
 	}
 	required_resources = {
 		energy = 3
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k2
 				has_spaceport_module = rse_module_weapon_k3
@@ -347,13 +347,13 @@ rse_module_weapon_k2 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -361,7 +361,7 @@ rse_module_weapon_k2 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -374,7 +374,7 @@ rse_module_weapon_k2 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -382,7 +382,7 @@ rse_module_weapon_k2 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -397,18 +397,18 @@ rse_module_weapon_k3 = {
 	prerequisites = { "tech_rse_spaceport_mass_drivers_2" }
 	component_set = "MASS_DRIVER_5"
 	spaceport_level = 10
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 5
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k3
 				has_spaceport_module = rse_module_weapon_k4
@@ -425,13 +425,13 @@ rse_module_weapon_k3 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -439,7 +439,7 @@ rse_module_weapon_k3 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -452,7 +452,7 @@ rse_module_weapon_k3 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -460,7 +460,7 @@ rse_module_weapon_k3 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -473,20 +473,20 @@ rse_module_weapon_k4 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_mass_drivers_3" }
-	component_set = "RSE_MASS_ACCELERATOR_2"
+	component_set = "MASS_ACCELERATOR_2"
 	spaceport_level = 12
-	
+
 	cost = {
-		minerals = 1000 
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 15
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 2 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k4
 				has_spaceport_module = rse_module_weapon_l1
@@ -502,13 +502,13 @@ rse_module_weapon_k4 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -516,7 +516,7 @@ rse_module_weapon_k4 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -529,7 +529,7 @@ rse_module_weapon_k4 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -537,7 +537,7 @@ rse_module_weapon_k4 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -552,18 +552,18 @@ rse_module_weapon_l1 = {
 	prerequisites = { "tech_lasers_2" }
 	component_set = "GAMMA_LASER"
 	spaceport_level = 1
-	
-	cost = { 
-		minerals = 250 
+
+	cost = {
+		minerals = 250
 	}
 	required_resources = {
 		energy = 2
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -582,13 +582,13 @@ rse_module_weapon_l1 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -596,7 +596,7 @@ rse_module_weapon_l1 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -609,7 +609,7 @@ rse_module_weapon_l1 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -617,7 +617,7 @@ rse_module_weapon_l1 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -632,18 +632,18 @@ rse_module_weapon_l2 = {
 	prerequisites = { "tech_rse_spaceport_lasers_1" }
 	component_set = "GAMMA_LASER"
 	spaceport_level = 5
-	
-	cost = { 
-		minerals = 500 
+
+	cost = {
+		minerals = 500
 	}
 	required_resources = {
 		energy = 3
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -661,13 +661,13 @@ rse_module_weapon_l2 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -675,7 +675,7 @@ rse_module_weapon_l2 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -688,7 +688,7 @@ rse_module_weapon_l2 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -696,7 +696,7 @@ rse_module_weapon_l2 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -711,18 +711,18 @@ rse_module_weapon_l3 = {
 	prerequisites = { "tech_rse_spaceport_lasers_2" }
 	component_set = "GAMMA_LASER"
 	spaceport_level = 10
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 5
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -739,13 +739,13 @@ rse_module_weapon_l3 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -753,7 +753,7 @@ rse_module_weapon_l3 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -766,7 +766,7 @@ rse_module_weapon_l3 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -774,7 +774,7 @@ rse_module_weapon_l3 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -788,20 +788,20 @@ rse_module_weapon_l4 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_lasers_3" }
-	component_set = "RSE_ENERGY_LANCE_2"
+	component_set = "ENERGY_LANCE_2"
 	spaceport_level = 12
-	
+
 	cost = {
 		minerals = 1000
 	}
 	required_resources = {
 		energy = 15
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 2 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -817,13 +817,13 @@ rse_module_weapon_l4 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -831,7 +831,7 @@ rse_module_weapon_l4 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -844,7 +844,7 @@ rse_module_weapon_l4 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -852,7 +852,7 @@ rse_module_weapon_l4 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -867,18 +867,18 @@ rse_module_weapon_m1 = {
 	prerequisites = { "tech_missiles_2" }
 	component_set = "MISSILE_5"
 	spaceport_level = 1
-	
-	cost = { 
-		minerals = 250 
+
+	cost = {
+		minerals = 250
 	}
 	required_resources = {
 		energy = 2
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -897,13 +897,13 @@ rse_module_weapon_m1 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -911,7 +911,7 @@ rse_module_weapon_m1 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -924,7 +924,7 @@ rse_module_weapon_m1 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -932,7 +932,7 @@ rse_module_weapon_m1 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -947,18 +947,18 @@ rse_module_weapon_m2 = {
 	prerequisites = { "tech_rse_spaceport_missiles_1" }
 	component_set = "MISSILE_5"
 	spaceport_level = 5
-	
-	cost = { 
-		minerals = 500 
+
+	cost = {
+		minerals = 500
 	}
 	required_resources = {
 		energy = 3
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -976,13 +976,13 @@ rse_module_weapon_m2 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -990,7 +990,7 @@ rse_module_weapon_m2 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -1003,7 +1003,7 @@ rse_module_weapon_m2 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -1011,7 +1011,7 @@ rse_module_weapon_m2 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -1026,18 +1026,18 @@ rse_module_weapon_m3 = {
 	prerequisites = { "tech_rse_spaceport_missiles_2" }
 	component_set = "MISSILE_5"
 	spaceport_level = 10
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 5
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 5 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -1054,13 +1054,13 @@ rse_module_weapon_m3 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -1068,7 +1068,7 @@ rse_module_weapon_m3 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -1081,7 +1081,7 @@ rse_module_weapon_m3 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -1089,7 +1089,7 @@ rse_module_weapon_m3 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -1102,20 +1102,20 @@ rse_module_weapon_m4 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_missiles_3" }
-	component_set = "RSE_TORPEDO_3"
+	component_set = "TORPEDO_3"
 	spaceport_level = 12
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 15
 	}
-	ai_weight = { 
+	ai_weight = {
 		weight = 2 #weapons are a good thing
 		modifier = {
 			factor = 0
-			from = { 
+			from = {
 				NOR = {
 				has_spaceport_module = rse_module_weapon_k1
 				has_spaceport_module = rse_module_weapon_k2
@@ -1131,13 +1131,13 @@ rse_module_weapon_m4 = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
 		modifier = {
 			factor = 0.75
-			OR = {	
+			OR = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_authoritarian
 				has_ethic = ethic_fanatic_xenophobe
@@ -1145,7 +1145,7 @@ rse_module_weapon_m4 = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {	
+			OR = {
 				has_ethic = ethic_authoritarian
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_materialist
@@ -1158,7 +1158,7 @@ rse_module_weapon_m4 = {
 		}
 		modifier = {
 			factor = 0.25
-			OR = {	
+			OR = {
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_egalitarian
@@ -1166,7 +1166,7 @@ rse_module_weapon_m4 = {
 		}
 		modifier = {
 			factor = 0.1
-			OR = {	
+			OR = {
 				has_ethic = ethic_fanatic_pacifist
 			}
 		}
@@ -1179,11 +1179,11 @@ rse_module_weapon_xl_1 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_arc_emitter" }
-	component_set = "RSE_ARC_EMITTER_2"
+	component_set = "ARC_EMITTER_2"
 	spaceport_level = 15
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 		}
 	required_resources = {
 		energy = 20
@@ -1199,11 +1199,11 @@ rse_module_weapon_xl_2 = {
 	section = "RSE_SECTION_WEAPON_XLARGE"
 	construction_days = 1200
 	prerequisites = { "tech_rse_spaceport_energy_torpedoes" }
-	component_set = "RSE_ENERGY_TORPEDO_2"
+	component_set = "ENERGY_TORPEDO_2"
 	spaceport_level = 15
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 20
@@ -1221,9 +1221,9 @@ rse_module_hangar_1 = {
 	prerequisites = { "tech_rse_hangar_1" }
 	component_set = "RSE_HANGAR"
 	spaceport_level = 5
-	
-	cost = { 
-		minerals = 750 
+
+	cost = {
+		minerals = 750
 	}
 
 	required_resources = {
@@ -1242,9 +1242,9 @@ rse_module_hangar_2 = {
 	prerequisites = { "tech_rse_hangar_2" }
 	component_set = "RSE_HANGAR"
 	spaceport_level = 10
-	
-	cost = { 
-		minerals = 1000 
+
+	cost = {
+		minerals = 1000
 	}
 	required_resources = {
 		energy = 10
