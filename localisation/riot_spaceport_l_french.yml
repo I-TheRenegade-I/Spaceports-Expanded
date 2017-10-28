@@ -6,6 +6,10 @@ l_french:
 #l_russian:
 #l_spanish:
 
+RENEGADE_MASS_ACCELERATOR: "Spaceport Giga Cannon"
+RENEGADE_ARC_EMITTER: "Spaceport Arc Emitter"
+RENEGADE_ENERGY_LANCE: "Spaceport Energy Lance"
+
 shipclass_orbital_station_hit_points_mult: "Spaceport Hull"
 shipclass_orbital_station_damage_mult: "Spaceport Weapon Damage"
 

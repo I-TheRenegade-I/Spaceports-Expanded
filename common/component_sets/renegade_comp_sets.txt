@@ -54,3 +54,19 @@ component_set = {
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "RENEGADE_ENERGY_LANCE"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
+component_set = {
+	key = "RENEGADE_ARC_EMITTER"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
+component_set = {
+	key = "RENEGADE_MASS_ACCELERATOR"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
