@@ -39,10 +39,10 @@ spaceport_level_6 = {}
 # 	local data = ""
 # 	for mod, m in pairs(modifiers) do
 # 		local step = m / max
-# 		if mod:find("_mult") then
-# 			data = data .. "\t" .. mod .. " = " .. ("%.2f"):format(step * i) .. "\n"
-# 		else
+# 		if mod:find("_add") then
 # 			data = data .. "\t" .. mod .. " = " .. ("%.0f"):format(step * i) .. "\n"
+# 		else
+# 			data = data .. "\t" .. mod .. " = " .. ("%.2f"):format(step * i) .. "\n"
 # 		end
 # 	end
 # 	print(tmplShip:format(i, data))
