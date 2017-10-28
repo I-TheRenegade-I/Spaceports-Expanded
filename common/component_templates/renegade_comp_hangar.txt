@@ -4,7 +4,7 @@
 
 #Version 1.1
 #TheRenegade 09/27/17
-
+# This is based on code from Space Defense Agency, with permission from folk@folk.wtf
 
 # lower ai weight = less chance
 #modifiers that can be added from modules
@@ -52,7 +52,7 @@ strike_craft_component_template = {
 	speed = 3.5
 	rotation_speed = 0.6
 	acceleration = 0.4
-	ai_weight = { 
+	ai_weight = {
 		weight = 0
 	}
 }
@@ -96,8 +96,8 @@ strike_craft_component_template = {
 	speed = 5
 	rotation_speed = 0.6
 	acceleration = 0.8
-	
-	ai_weight = { 
+
+	ai_weight = {
 		weight = 0
 	}
 }

@@ -29,7 +29,7 @@ orbital_station = {
 	max_hitpoints = 4000
 	size_multiplier = 8
 	fleet_slot_size = 4
-	section_slots = { 
+	section_slots = {
 		"1" = { locator = "part1" }
 		"2" = { locator = "part2" }
 		"3" = { locator = "part3" }
@@ -50,16 +50,14 @@ orbital_station = {
 		"18" = { locator = "part18" }
 		"19" = { locator = "part19" }
 		"20" = { locator = "part20" }
-
 	}
 	num_target_locators = 0
 	is_space_station = yes
 	build_block_radius = @build_block_radius_tiny
 	cost = 360
-	
-	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	enable_default_design = yes
 	prerequisites = { "tech_spaceport_1" }
 	class = shipclass_orbital_station
 	is_designable = no
 }
-

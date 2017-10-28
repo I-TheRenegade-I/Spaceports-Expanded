@@ -1,5 +1,7 @@
 # XXX need fallen entities
 
+# This is based on code from Space Defense Agency, with permission from folk@folk.wtf
+
 entity = {
 	name = "arthropoid_01_rsefighter_entity"
 	pdxmesh = "arthropoid_01_fighter_mesh"
