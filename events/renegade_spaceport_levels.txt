@@ -8,25 +8,25 @@ planet_event = {
 		has_free_spaceport_module_slot = yes
 		switch = {
 			trigger = is_spaceport_module_slot_free
-			19 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 19 } } }
-			18 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 18 } } }
-			17 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 17 } } }
-			16 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 16 } } }
-			15 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 15 } } }
-			14 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 14 } } }
-			13 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 13 } } }
-			12 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 12 } } }
-			11 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 11 } } }
-			10 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 10 } } }
-			9 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 9 } } }
-			8 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 8 } } }
-			7 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 7 } } }
-			6 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 6 } } }
-			5 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 5 } } }
-			4 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 4 } } }
-			3 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 3 } } }
-			2 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 2 } } }
-			1 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value = 1 } } }
+			19 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 18 } } }
+			18 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 17 } } }
+			17 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 16 } } }
+			16 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 15 } } }
+			15 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 14 } } }
+			14 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 13 } } }
+			13 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 12 } } }
+			12 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 11 } } }
+			11 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 10 } } }
+			10 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 9 } } }
+			9 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 8 } } }
+			8 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 7 } } }
+			7 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 6 } } }
+			6 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 5 } } }
+			5 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 4 } } }
+			4 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 3 } } }
+			3 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 2 } } }
+			2 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 1 } } }
+			1 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 0 } } }
 		}
 	}
 
