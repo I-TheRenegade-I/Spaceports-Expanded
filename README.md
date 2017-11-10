@@ -1,3 +1,3 @@
 # Spaceports-Expanded
 
-A Stellaris mod for bigger and better Spacrports
+A Stellaris mod for bigger and better Spaceports
